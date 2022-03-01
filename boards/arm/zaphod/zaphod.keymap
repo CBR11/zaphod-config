@@ -70,7 +70,7 @@
 
         combo_cit {
             timeout-ms = <30>;
-            key-positions = <5 15>;
+            key-positions = <6 16>;
             bindings = <&kp LS(N2)>;
             layers = <0>;
         };
@@ -84,14 +84,14 @@
 
         combo_tab {
             timeout-ms = <30>;
-            key-positions = <6 16>;
+            key-positions = <7 17>;
             bindings = <&kp TAB>;
             layers = <0>;
         };
     
            combo_enter {
             timeout-ms = <30>;
-            key-positions = <7 17>;
+            key-positions = <8 18>;
             bindings = <&kp ENTER>;
             layers = <0>; 
             
@@ -101,18 +101,18 @@
             timeout-ms = <30>;
             key-positions = <1 11>;
             bindings = <&kp BSPC>;
-            layers = <0>; 
+            layers = <3>; 
          };        
           combo_w {
             timeout-ms = <30>;
-            key-positions = <10 21>;
+            key-positions = <11 21>;
             bindings = <&kp LGUI>;
             layers = <0>;
         };
 
         combo_la {
             timeout-ms = <30>;
-            key-positions = <11 22>;
+            key-positions = <12 22>;
             bindings = <&kp LALT>;
             layers = <0>;
         };
@@ -133,28 +133,28 @@
 
         combo_rs {
             timeout-ms = <30>;
-            key-positions = <16 27>;
+            key-positions = <17 27>;
             bindings = <&kp LALT>;
             layers = <0>;            
  
          };        
            combo_rw {
             timeout-ms = <30>;
-            key-positions = <17 28>;
+            key-positions = <18 28>;
             bindings = <&kp RGUI>;
             layers = <0>; 
          }; 
          
            combo_x {
             timeout-ms = <30>;
-            key-positions = <2 3>;
+            key-positions = <3 4>;
             bindings = <&kp X>;
             layers = <0>;
         };
     
            combo_z {
             timeout-ms = <30>;
-            key-positions = <4 5>;
+            key-positions = <5 6>;
             bindings = <&kp Z>;
             layers = <0>; 
             
@@ -162,7 +162,7 @@
          
            combo_q {
             timeout-ms = <30>;
-            key-positions = <4 14>;
+            key-positions = <5 15>;
             bindings = <&kp Q>;
             layers = <0>; 
             
@@ -171,7 +171,7 @@
             timeout-ms = <30>;
             key-positions = <16 17>;
             bindings = <&kp BSPC>;
-            layers = <0>; 
+            layers = <3>; 
          }; 
            combo_bspcvt {
             timeout-ms = <30>;
