@@ -201,7 +201,7 @@
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp BSPC       &kp UARW    &kp DEL    &kp PG_UP
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp LARW       &kp DARW    &kp RARW   &kp PG_DN
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp LC(BSPC)   &kp PG_DN   &kp PG_UP  &kp END
-                                                  &trans          &none        &trans           &trans
+                                                  &trans          &kp LC(BSPC) &trans           &trans
             >;
         };
 
