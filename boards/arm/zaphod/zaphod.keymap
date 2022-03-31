@@ -147,14 +147,14 @@
          
            combo_x {
             timeout-ms = <30>;
-            key-positions = <3 4>;
+            key-positions = <4 14>;
             bindings = <&kp X>;
             layers = <0>;
         };
     
            combo_z {
             timeout-ms = <30>;
-            key-positions = <5 6>;
+            key-positions = <15 25>;
             bindings = <&kp Z>;
             layers = <0>; 
             
