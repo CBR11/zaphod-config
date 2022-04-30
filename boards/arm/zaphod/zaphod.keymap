@@ -190,7 +190,7 @@
             bindings = <
             &kp Y  &kp U &kp O &kp C    &lt MED SLASH         &kp B &kp K         &kp L &kp M  &kp V
             &kp A &kp I  &kp E &kp S  &qe                       &kp H &kp D         &kp N  &kp T &kp G 
-           &kp LBKT &kp SQT &kp SEMI &hmc LCTRL DOT  &kp COMMA        &kp P   &hmc LCTRL F  &kp W  &kp J &kp LS(N2)
+           &kp SQT &kp LBKT  &kp SEMI &hmc LCTRL DOT  &kp COMMA        &kp P   &hmc LCTRL F  &kp W  &kp J &kp LS(N2)
                                 &mo NUM       &hmc LSHIFT SPC      &lt NAV R  &mo OTH     
             >;
         };
