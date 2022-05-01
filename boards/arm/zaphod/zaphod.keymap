@@ -70,14 +70,14 @@
 
         combo_cit {
             timeout-ms = <30>;
-            key-positions = <6 16>;
+            key-positions = <20 29>;
             bindings = <&kp LS(N2)>;
             layers = <0>;
         };
 
         combo_esc {
             timeout-ms = <30>;
-            key-positions = <3 13>;
+            key-positions = <4 14>;
             bindings = <&kp EQUAL>;
             layers = <0>;
         };
@@ -147,14 +147,14 @@
          
            combo_x {
             timeout-ms = <30>;
-            key-positions = <4 14>;
+            key-positions = <3 13>;
             bindings = <&kp X>;
             layers = <0>;
         };
     
            combo_z {
             timeout-ms = <30>;
-            key-positions = <15 25>;
+            key-positions = <6 16>;
             bindings = <&kp Z>;
             layers = <0>; 
             
@@ -162,7 +162,7 @@
          
            combo_q {
             timeout-ms = <30>;
-            key-positions = <5 15>;
+            key-positions = <2 12>;
             bindings = <&kp Q>;
             layers = <0>; 
             
@@ -175,7 +175,7 @@
          }; 
            combo_bspcvt {
             timeout-ms = <30>;
-            key-positions = <9 19>;
+            key-positions = <13 16>;
             bindings = <&kp RC(BSPC)>;
             layers = <0>; 
          };        
