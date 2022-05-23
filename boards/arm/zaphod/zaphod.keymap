@@ -175,7 +175,7 @@
          }; 
            combo_bspcvt {
             timeout-ms = <30>;
-            key-positions = <13 16>;
+            key-positions = <32 33>;
             bindings = <&kp RC(BSPC)>;
             layers = <0>; 
          };        
