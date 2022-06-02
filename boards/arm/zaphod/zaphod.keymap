@@ -30,6 +30,14 @@
             bindings = <&kp LS(MINUS)>, <&kp N1>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+	
+	nj: nino_nino {
+            compatible = "zmk,behavior-mod-morph";
+            label = "nino nino";
+            #binding-cells = <0>;
+            bindings = <&kp RALT(RBKT)>, <&kp N4>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
         
          hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -68,10 +76,10 @@
             layers = <0>;
         };
 
-        combo_cit {
+        combo_nj {
             timeout-ms = <30>;
-            key-positions = <20 29>;
-            bindings = <&kp LS(N2)>;
+            key-positions = <23 24>;
+            bindings = <&nj>;
             layers = <0>;
         };
 
