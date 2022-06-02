@@ -35,7 +35,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "nino nino";
             #binding-cells = <0>;
-            bindings = <&kp RALT(RBKT)>, <&kp N4>;
+            bindings = <&kp RA(RBKT)>, <&kp N4>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         
