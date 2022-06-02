@@ -105,11 +105,11 @@
             
          };
  
-            combo_minus{
+            combo_tognav{
             timeout-ms = <30>;
-            key-positions = <1 11>;
-            bindings = <&kp BSPC>;
-            layers = <3>; 
+            key-positions = <30 31>;
+            bindings = <&tog 1>;
+            layers = <0 1>; 
          };        
           combo_w {
             timeout-ms = <30>;
@@ -199,7 +199,7 @@
             &kp LBKT  &kp U &kp O &kp C    &lt MED COMMA         &kp B &kp K         &kp L &kp M  &kp V
             &kp A &kp I  &kp E &kp S  &kp DOT                       &kp H &kp D         &kp N  &kp T &kp G 
            &kp Y &kp SQT &kp SEMI &hmc LCTRL SLASH  &qe        &kp P &hmc LCTRL F  &kp W  &kp J &kp LS(N2)
-                                &tog 1       &hmc LSHIFT SPC      &lt NAV R  &mo OTH     
+                                &none       &hmc LSHIFT SPC      &lt NAV R  &mo OTH     
             >;
         };
 
@@ -207,9 +207,9 @@
             label = "Nav";
             bindings = <
                 &kp LBKT   &kp N7     &kp N8      &kp N9          &kp RBKT       &trans           &kp BSPC       &kp UARW    &kp DEL    &kp PG_UP
-                &kp N0     &kp N4     &kp N5      &kp N6          &kp EQUAL      &trans           &kp LARW       &kp DARW    &kp RARW   &kp PG_DN
+                &kp N0     &kp N4     &kp N5      &kp N6          &kp EQUAL      &kp LC(BSPC)     &kp LARW       &kp DARW    &kp RARW   &kp PG_DN
                 &kp GRAVE  &kp N1     &kp N2      &kp N3          &kp BSLH       &trans           &kp LC(BSPC)   &kp PG_DN   &kp PG_UP  &kp END
-                                                  &tog 1          &kp N0         &trans           &trans
+                                                  &none           &kp N0         &trans           &trans
             >;
         };
 
