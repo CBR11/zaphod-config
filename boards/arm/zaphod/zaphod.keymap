@@ -61,11 +61,11 @@
   ╰───────────╮ 30  31 │ │ 32  33 ╭───────────╯
               ╰────────╯ ╰────────╯            */
 
-        combo_aa {
+        combo_um {
             timeout-ms = <30>;
-            key-positions = <10 11>;
-            bindings = <&kp LBKT>;
-            layers = <3>;
+            key-positions = <25 26>;
+            bindings = <&kp RBKT>;
+            layers = <0>;
         };
 
         combo_cit {
@@ -75,9 +75,9 @@
             layers = <0>;
         };
 
-        combo_esc {
+        combo_ac {
             timeout-ms = <30>;
-            key-positions = <3 4>;
+            key-positions = <15 16>;
             bindings = <&kp EQUAL>;
             layers = <0>;
         };
