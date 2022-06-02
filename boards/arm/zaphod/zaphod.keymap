@@ -101,7 +101,7 @@
             timeout-ms = <30>;
             key-positions = <27 28>;
             bindings = <&kp ENTER>;
-            layers = <0>; 
+            layers = <0 1>; 
             
          };
  
@@ -208,8 +208,8 @@
             bindings = <
                 &kp LBKT   &kp N7     &kp N8      &kp N9          &kp RBKT       &trans           &kp BSPC       &kp UARW    &kp DEL    &kp PG_UP
                 &kp N0     &kp N4     &kp N5      &kp N6          &kp EQUAL      &kp LC(BSPC)     &kp LARW       &kp DARW    &kp RARW   &kp PG_DN
-                &kp GRAVE  &kp N1     &kp N2      &kp N3          &kp BSLH       &trans           &kp LC(BSPC)   &kp PG_DN   &kp PG_UP  &kp END
-                                                  &none           &kp N0         &trans           &trans
+                &kp GRAVE  &kp N1     &kp N2      &hmc LCTRL N3   &kp BSLH       &trans           &none          &kp PG_DN   &kp PG_UP  &kp END
+                                                  &none   &hmc LSHIFT N0         &trans           &trans
             >;
         };
 
