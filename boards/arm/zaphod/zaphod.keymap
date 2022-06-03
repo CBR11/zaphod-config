@@ -42,20 +42,20 @@
   ╰───────────╮ 30  31 │ │ 32  33 ╭───────────╯
               ╰────────╯ ╰────────╯            */
 	
-	combo(um, &kp RBKT, 25 26, 30, 0)
-	combo(nj, &nj, 23 24, 30, 0)
-	combo(ac, &kp EQUAL, 15 16, 30, 0)
-	combo(tab, &kp TAB, 26 27, 30, 0)
-	combo(enter, &kp ENTER, 27 28, 30, 0 1)
- 	combo(tog, &tog 1, 30 31, 30, 0 1)
-        combo(lwin, &kp LGUI, 11 21, 30, 0)  
-        combo(lalt, &kp LALT, 12 22, 30, 0)
-	combo(ralt, &kp LALT, 17 27, 30, 0)
-     	combo(rwin, &kp RGUI, 18 28, 30, 0)
- 	combo(x, &kp X, 6 7, 30, 0)
-	combo(z, &kp Z, 5 6, 30, 0)
-	combo(q, &kp Q, 7 8, 30, 0)    
-	combo(cbspc, &kp RC(BSPC), 16 17 18, 30, 0 1)
+	COMBO(um, &kp RBKT, 25 26, 30, 0)
+	COMBO(nj, &nj, 23 24, 30, 0)
+	COMBO(ac, &kp EQUAL, 15 16, 30, 0)
+	COMBO(tab, &kp TAB, 26 27, 30, 0)
+	COMBO(enter, &kp ENTER, 27 28, 30, 0 1)
+ 	COMBO(tog, &tog 1, 30 31, 30, 0 1)
+        COMBO(lwin, &kp LGUI, 11 21, 30, 0)  
+        COMBO(lalt, &kp LALT, 12 22, 30, 0)
+	COMBO(ralt, &kp LALT, 17 27, 30, 0)
+     	COMBO(rwin, &kp RGUI, 18 28, 30, 0)
+ 	COMBO(x, &kp X, 6 7, 30, 0)
+	COMBO(z, &kp Z, 5 6, 30, 0)
+	COMBO(q, &kp Q, 7 8, 30, 0)    
+	COMBO(cbspc, &kp RC(BSPC), 16 17 18, 30, 0 1)
 
          };        
 
