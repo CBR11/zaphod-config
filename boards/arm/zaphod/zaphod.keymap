@@ -55,7 +55,7 @@
  	COMBO(x, &kp X, 6 7, 30, 0)
 	COMBO(z, &kp Z, 5 6, 30, 0)
 	COMBO(q, &kp Q, 7 8, 30, 0)    
-	COMBO(cbspc, &kp RC(BSPC), 16 17 18, 30, 0 1)
+	COMBO(at, &at, 13 14, 30, 0)
 
          };        
 
@@ -76,6 +76,14 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         
+	at: at {
+            compatible = "zmk,behavior-mod-morph";
+            label = "at";
+            #binding-cells = <0>;
+            bindings = <&kp RA(N2)>, <&kp LS(N6)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+	
          hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods";
