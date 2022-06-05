@@ -47,6 +47,7 @@
 	COMBO(ac, &kp EQUAL, 15 16, 30, 0)
 	COMBO(tab, &kp TAB, 26 27, 30, 0)
 	COMBO(enter, &kp ENTER, 27 28, 30, 0 1)
+	COMBO(enter1, &kp ENTER, 21 22, 30, 0 1)
  	COMBO(tog, &tog 1, 30 31, 30, 0 1)
         COMBO(lwin, &kp LGUI, 11 21, 30, 0)  
         COMBO(lalt, &kp LALT, 12 22, 30, 0)
@@ -54,7 +55,10 @@
      	COMBO(rwin, &kp RGUI, 18 28, 30, 0)
  	COMBO(x, &kp X, 6 7, 30, 0)
 	COMBO(z, &kp Z, 5 6, 30, 0)
-	COMBO(q, &kp Q, 7 8, 30, 0)    
+	COMBO(q, &kp Q, 7 8, 30, 0)
+ 	COMBO(x1, &kp X, 7 17, 30, 0)
+	COMBO(z1, &kp Z, 6 16, 30, 0)
+	COMBO(q1, &kp Q, 8 18, 30, 0)	
 	COMBO(at, &at, 13 14, 30, 0)
 
          };        
@@ -115,7 +119,7 @@
                 &kp LBKT   &kp U      &kp O      &kp C            &lt MED COMMA   &kp B        &kp K         &kp L  &kp M  &kp V
                 &kp A      &kp I      &kp E      &kp S            &kp DOT         &kp H        &kp D         &kp N  &kp T  &kp G 
                 &kp Y      &kp SQT    &kp SEMI   &hmc LCTRL SLASH &qe             &kp P        &hmc LCTRL F  &kp W  &kp J  &kp LS(N2)
-                                                 &mo OTH          &hmc LSHIFT SPC &lt NAV R    &mo OTH     
+                                                 &hmc OTH BSLH    &hmc LSHIFT SPC &lt NAV R    &mo OTH     
             >;
         };
 
@@ -124,8 +128,8 @@
             bindings = <
                 &kp SLASH  &kp N7     &kp N8      &kp N9          &kp LS(BSLH)   &trans           &kp BSPC       &kp UARW    &kp DEL    &kp PG_UP
                 &kp MINUS  &kp N4     &kp N5      &kp N6          &kp LS(N7)     &kp LC(BSPC)     &kp LARW       &kp DARW    &kp RARW   &kp PG_DN
-                &kp LS(N0) &kp N1     &kp N2      &hmc LCTRL N3   &kp COMMA      &trans           &none          &kp PG_DN   &kp PG_UP  &kp END
-                                        &hmc RALT ENTER   &hmc LSHIFT N0         &trans           &trans
+                &hmc RALT LS(N0) &kp N1   &kp N2  &hmc LCTRL N3   &kp COMMA      &trans           &none          &kp PG_DN   &kp PG_UP  &kp END
+                                        &kp N0   &hmc LSHIFT SPC                 &trans           &trans
             >;
         };
 
