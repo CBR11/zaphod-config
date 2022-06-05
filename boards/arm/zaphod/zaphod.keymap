@@ -115,7 +115,7 @@
                 &kp LBKT   &kp U      &kp O      &kp C            &lt MED COMMA   &kp B        &kp K         &kp L  &kp M  &kp V
                 &kp A      &kp I      &kp E      &kp S            &kp DOT         &kp H        &kp D         &kp N  &kp T  &kp G 
                 &kp Y      &kp SQT    &kp SEMI   &hmc LCTRL SLASH &qe             &kp P        &hmc LCTRL F  &kp W  &kp J  &kp LS(N2)
-                                                 &none            &hmc LSHIFT SPC &lt NAV R    &mo OTH     
+                                                 &mo OTH          &hmc LSHIFT SPC &lt NAV R    &mo OTH     
             >;
         };
 
@@ -134,7 +134,7 @@
             bindings = <
                 &trans	   &trans     &trans      &trans          &trans       &trans           &trans         &trans       &trans       &bt BT_CLR
                 &trans     &trans     &trans      &trans          &trans       &trans           &trans         &trans       &trans       &trans
-                &trans     &trans     &trans      &trans          &trans       &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+                &kp LC(Z)  &trans     &trans      &trans          &trans       &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
                                                   &trans          &trans       &trans           &trans
             >;
         };
