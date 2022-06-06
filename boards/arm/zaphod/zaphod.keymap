@@ -118,7 +118,7 @@
             bindings = <
                 &kp LBKT   &kp U      &kp O      &kp C            &lt MED COMMA   &kp B        &kp K         &kp L  &kp M  &kp V
                 &kp A      &kp I      &kp E      &kp S            &kp DOT         &kp H        &kp D         &kp N  &kp T  &kp G 
-                &kp Y      &kp SQT    &kp SEMI   &hmc LCTRL SLASH &qe             &kp P        &hmc LCTRL F  &kp W  &kp J  &kp LS(N2)
+                &kp Y      &kp SQT    &kp SEMI   &hmc LCTRL SLASH &qe             &kp F        &hmc LCTRL P  &kp W  &kp J  &kp LS(N2)
                                                  &mo OTH     &hmc LSHIFT SPC      &lt NAV R    &lt FUN  BSLH     
             >;
         };
