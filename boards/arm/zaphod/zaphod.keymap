@@ -60,7 +60,7 @@
 	COMBO(z1, &kp Z, 6 16, 30, 0)
 	COMBO(q1, &kp Q, 8 18, 30, 0)	
 	COMBO(at, &at, 13 14, 30, 0)
-	COMBO(cbspc, &kp LC(BSPC), 31 32, 30, 0)
+	
 
          };        
 
@@ -127,9 +127,9 @@
         nav_layer {
             label = "Nav";
             bindings = <
-                &kp SLASH  &kp N7     &kp N8      &kp N9          &kp LS(BSLH)   &trans           &kp BSPC       &kp UARW    &kp DEL    &kp PG_UP
-                &hmc RALT MINUS  &kp N4     &kp N5      &kp N6          &kp LS(N7)     &kp LC(BSPC)     &kp LARW       &kp DARW    &kp RARW   &kp PG_DN
-                &kp LS(N0) &kp N1   &kp N2  &hmc LCTRL N3   &kp COMMA      &trans           &none          &kp PG_DN   &kp PG_UP  &kp END
+                &kp SLASH  &kp N7     &kp N8      &kp N9          &kp LS(BSLH)             &trans           &kp BSPC    &kp UARW   &kp DEL  &kp LC(BSPC)
+                &hmc RALT MINUS  &kp N4     &kp N5      &kp N6          &kp LS(N7)         &kp LC(BSPC)     &kp LARW    &kp DARW   &kp RARW &kp PG_UP
+                &kp LS(N0) &kp N1   &kp N2  &hmc LCTRL N3   &kp COMMA                      &trans           &none       &kp PG_DN  &kp END  &kp PG_DN
                                         &kp N0   &hmc LSHIFT SPC                 &trans           &trans
             >;
         };
@@ -180,7 +180,7 @@
                 &kp F12     &kp F7     &kp F8      &kp F9     &kp PSCRN         &trans          &trans         &trans      &trans     &trans
                 &kp F11     &kp F4     &kp F5      &kp F6     &kp SLCK          &trans          &trans         &trans      &trans     &trans
                 &kp F10     &kp F1     &kp F2      &kp F3     &kp PAUSE_BREAK   &trans          &trans         &trans      &trans     &trans
-                                                   &none      &kp LC(BSPC)      &trans          &trans
+                                                   &none      &trans            &trans          &trans
             >;
         };
     };
