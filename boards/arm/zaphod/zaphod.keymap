@@ -60,7 +60,7 @@
 	COMBO(z1, &kp Z, 6 16, 30, 0)
 	COMBO(q1, &kp Q, 8 18, 30, 0)	
 	COMBO(at, &at, 13 14, 30, 0)
-	COMBO(cbspc, &kp LC(BSPC), 10 19, 30, 0)
+	COMBO(cbspc, &kp LC(BSPC), 11 18, 30, 0)
 
          };        
 
