@@ -60,8 +60,8 @@
 	COMBO(z1, &kp Z, 6 16, 60, 0)
 	COMBO(q1, &kp Q, 8 18, 60, 0)	
 	COMBO(at, &at, 13 14, 30, 0)
-	COMBO(oe, &kp SQT, 0 10, 60, 0)
-	COMBO(y, &kp Y, 1 11, 60, 0)
+	COMBO(oe, &kp SQT, 0 10, 100, 0)
+	COMBO(y, &kp Y, 1 11, 100, 0)
          
 	 };        
 
