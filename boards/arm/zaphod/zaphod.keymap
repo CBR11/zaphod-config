@@ -62,7 +62,7 @@
 	COMBO(at, &at, 13 14, 30, 0)
 	COMBO(oe, &kp SQT, 0 10, 100, 0)
 	COMBO(y, &kp Y, 1 11, 100, 0)
-        COMBO(cbspc, &kp BSPC, 7 8, 100, 0)
+        COMBO(cbspc, &kp BSPC, 7 8, 100, 4)
 	 };        
 
     behaviors {
@@ -132,7 +132,7 @@
                 &kp SLASH  &kp N6     &kp N5      &kp N4          &kp LS(BSLH)             &trans           &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
                 &kp N3  &kp N2     &kp N1      &kp N0          &kp LS(N7)         &none            &kp LARW    &kp DARW   &kp RARW &hmc LCTRL LC(BSPC)
                 &kp MINUS &kp N9   &kp N8  &hmc LCTRL N7   &kp LS(N0)                      &trans           &none       &kp PG_DN  &kp END  &kp PG_DN
-                                        &hmc RALT COMMA   &lt SYM SPC                 &trans           &trans
+                                        &hmc RALT COMMA   &lt SYM LC(BSPC)                 &trans           &trans
             >;
         };
 
