@@ -62,7 +62,7 @@
 	COMBO(at, &at, 13 14, 30, 0)
 	COMBO(oe, &kp SQT, 0 10, 100, 0)
 	COMBO(y, &kp Y, 1 11, 100, 0)
-         
+        COMBO(cbspc, &kp LC(BSPC), 9 19, 100, 0)
 	 };        
 
     behaviors {
