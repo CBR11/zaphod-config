@@ -119,8 +119,8 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp SQT   &kp U      &kp O      &kp F         &lt MED COMMA  &kp B   &kp K  &kp L       &kp M             &kp V
-                &kp A     &kp I      &kp E      &kp S         &kp C          &kp H   &kp D  &kp N       &kp T             &kp G 
+                &kp SQT   &kp U      &kp O      &kp F         &lt MED COMMA  &kp B   &kp H  &kp L       &kp M             &kp V
+                &kp A     &kp I      &kp E      &kp S         &kp C          &kp K   &kp D  &kp N       &kp T             &kp G 
                 &kp SEMI  &kp Y      &kp LBKT   &qe  &kp DOT        &kp P   &hmc LCTRL SLASH    &kp LS(N2)  &kp J  &kp W
                                                  &mo OTH     &hmc LSHIFT SPC      &lt NAV R    &lt FUN  BSLH     
             >;
@@ -129,9 +129,9 @@
         nav_layer {
             label = "Nav";
             bindings = <
-                &kp SLASH  &kp N6     &kp N5      &kp N4          &kp LS(BSLH)             &trans           &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
-                &kp N3  &kp N2     &kp N1      &kp N0          &kp LS(N7)         &none            &kp LARW    &kp DARW   &kp RARW &hmc LCTRL LC(BSPC)
-                &kp MINUS &kp N9   &kp N8  &hmc LCTRL N7   &kp LS(N0)                      &trans           &none       &kp PG_DN  &kp END  &kp PG_DN
+                &kp SLASH  &kp N6     &kp N5      &kp N4          &kp LS(BSLH)             &none           &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
+                &kp N3  &kp N2     &kp N1      &kp N0          &kp LS(N7)                  &none           &kp LARW    &kp DARW   &kp RARW &kp PG_DN
+                &kp MINUS &kp N9   &kp N8  &hmc LCTRL N7   &kp LS(N0)                      &none           &none       &kp PG_DN  &kp END  &kp PG_DN
                                         &hmc RALT COMMA   &lt SYM LC(BSPC)                 &trans           &trans
             >;
         };
