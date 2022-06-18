@@ -124,7 +124,7 @@
                 &kp Y     &kp LBKT   &kp SEMI   &qe  &kp DOT        &kp SLASH   &hmc LCTRL P    &kp LS(N2)  &kp J  &kp W
                                                  &mo OTH     &hmc LSHIFT SPC      &lt NAV R    &lt FUN  BSLH     
             >;
-        };;
+        };
 
         nav_layer {
             label = "Nav";
