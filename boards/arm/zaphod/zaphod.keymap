@@ -61,8 +61,8 @@
 	COMBO(q1, &kp Q, 8 18, 60, 0)	
 	COMBO(at, &at, 13 14, 30, 0)
 	COMBO(oe, &kp SQT, 0 10, 100, 0)
-	COMBO(y, &kp Y, 1 11, 100, 0)
-        COMBO(cbspc, &kp BSPC, 3 13, 100, 0)
+	COMBO(aa, &kp LBKT, 1 11, 120, 0)
+        COMBO(cbspc, &kp BSPC, 2 12, 100, 0)
 	
 	 };        
 
