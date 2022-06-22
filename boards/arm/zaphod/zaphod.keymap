@@ -60,8 +60,8 @@
 	COMBO(z1, &kp Z, 6 16, 60, 0)
 	COMBO(q1, &kp Q, 8 18, 60, 0)	
 	COMBO(at, &at, 13 14, 30, 0)
-	COMBO(oe, &kp SQT, 0 10, 100, 0)
-	COMBO(aa, &kp LBKT, 1 11, 120, 0)
+	COMBO(oe, &kp SQT, 1 11, 120, 0)
+	COMBO(aa, &kp LBKT, 1 11, 120, 6)
         COMBO(cbspc, &kp BSPC, 2 12, 100, 0)
 	
 	 };        
@@ -120,9 +120,9 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp SQT   &kp U      &kp O      &kp F         &lt MED COMMA  &kp P   &kp H  &kp L       &kp M             &kp V
+                &kp LBKT  &kp U      &kp O      &kp F         &lt MED COMMA  &kp P   &kp H  &kp L       &kp M             &kp V
                 &kp A     &kp I      &kp E      &kp S         &kp C          &kp K   &kp D  &kp N       &kp T             &kp G 
-                &kp LBKT  &kp Y      &kp SEMI   &qe  &kp DOT        &kp SLASH   &hmc LCTRL B    &kp LS(N2)  &kp J  &kp W
+                &kp SQT   &kp Y      &kp SEMI   &qe  &kp DOT        &kp SLASH   &hmc LCTRL B    &kp LS(N2)  &kp J  &kp W
                                                  &mo OTH     &hmc LSHIFT SPC      &lt NAV R    &lt FUN  BSLH     
             >;
         };
