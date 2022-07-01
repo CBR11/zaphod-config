@@ -60,7 +60,7 @@
 	COMBO(z1, &kp Z, 6 16, 60, 0)
 	COMBO(q1, &kp Q, 8 18, 60, 0)	
 	COMBO(at, &at, 13 14, 30, 0)
-	COMBO(oe, &kp SQT, 1 11, 120, 0)
+	COMBO(oe, &zed_em_kay, 1 11, 120, 0)
 	COMBO(aa, &kp LBKT, 1 11, 120, 6)
         COMBO(cbspc, &kp BSPC, 2 12, 100, 0)
 	
@@ -107,6 +107,19 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+	
+	    macros {
+        zed_em_kay: zed_em_kay {
+            label = "ZM_zed_em_kay";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp Z &kp M &kp K>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+    };
 
     };
 
