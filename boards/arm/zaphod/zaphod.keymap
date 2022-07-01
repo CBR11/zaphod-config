@@ -112,7 +112,9 @@
     ZMK_MACRO(zed_em_kay,
         wait-ms = <30>;
         tap-ms = <40>;
-        bindings = <&kp Z &kp M &kp K>;
+        bindings = <&kp Z>;
+	        , <&macro_release &kp LSHFT>
+		, <&kp M &kp K>
     )
     };
 
