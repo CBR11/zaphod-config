@@ -56,11 +56,11 @@
  	COMBO(z, &kp Z, 5 6, 30, 4)
 	COMBO(q, &kp Q, 7 8, 30, 4)
  	COMBO(x1, &kp X, 7 17, 60, 0)
-	COMBO(z1, &kp Z, 6 16, 60, 0)
+	COMBO(z1, &kp Z, 5 15, 60, 0)
 	COMBO(q1, &kp Q, 8 18, 60, 0)	
 	COMBO(at, &at, 13 14, 30, 0)
-	COMBO(foe, &foe, 2 3, 30, 0)
-	COMBO(hj, &hj, 6 7, 30, 0)
+	COMBO(foe, &foe, 3 13, 80, 0)
+	COMBO(hj, &hj, 6 16, 80, 0)
         COMBO(cbspc, &kp BSPC, 2 12, 100, 0)
 	
 	 };        
