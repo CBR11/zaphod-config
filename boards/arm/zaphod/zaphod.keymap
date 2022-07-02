@@ -139,7 +139,7 @@
             label = "Base";
             bindings = <
                 &kp LBKT  &kp U      &kp O      &kp F         &lt MED COMMA  &kp SLASH   &kp H  &kp L       &kp M             &kp V
-                &kp A     &kp I      &kp E      &hmc LSHIFT S &kp C          &kp P &hmc LSHIFT D  &kp N       &kp T             &kp G 
+                &kp I     &kp A      &kp E      &hmc LSHIFT S &kp C          &kp P &hmc LSHIFT D  &kp N       &kp T             &kp G 
                 &kp Y     &kp SQT    &kp SEMI   &hmc LCTRL B  &kp DOT        &qe   &hmc LCTRL K    &kp LS(N2)  &kp J  &kp W
                                                  &mo OTH     &hmc LSHIFT SPC       &lt NAV R    &lt FUN  BSLH     
             >;
