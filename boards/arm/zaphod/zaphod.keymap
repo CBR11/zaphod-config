@@ -61,7 +61,7 @@
 	COMBO(at, &at, 13 14, 30, 0)
 	COMBO(foe, &foe, 3 13, 80, 0)
 	COMBO(hj, &hj, 6 16, 80, 0)
-        COMBO(cbspc, &kp BSPC, 2 12, 100, 0)
+        COMBO(ndash, &ndash, 2 12, 100, 0)
 	
 	 };        
 
@@ -108,12 +108,14 @@
         };
 	
 	    macros {
-        ZMK_MACRO(foe,
+        ZMK_MACRO(ndash,
         wait-ms = <20>;
         tap-ms = <20>;
-        bindings = <&macro_tap &kp F >
-                 , <&macro_release &kp LSHFT>
-                 , <&macro_tap &kp SQT>
+        bindings = <&macro_tap &kp SPACE>
+                 , <&macro_press   &kp LALT>
+                 , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N0>
+		 , <&macro_release &kp LALT>
+		 , <&macro_tap &kp SPACE>
                  ;
     )
         ZMK_MACRO(hj,
