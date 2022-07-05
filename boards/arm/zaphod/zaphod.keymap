@@ -59,7 +59,6 @@
 	COMBO(z1, &kp Z, 5 15, 60, 0)
 	COMBO(q1, &kp Q, 8 18, 60, 0)	
 	COMBO(at, &at, 13 14, 30, 0)
-	COMBO(foe, &foe, 3 13, 80, 0)
 	COMBO(hj, &hj, 6 16, 80, 0)
         COMBO(ndash, &ndash, 2 12, 100, 0)
 	
