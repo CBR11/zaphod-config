@@ -139,10 +139,10 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp Y    &kp O      &kp U      &kp B         &lt MED DOT   &kp W &kp H  &kp L       &kp V             &kp P
-                &kp I     &kp A      &kp E      &hmc LSHIFT S &kp F        &kp M &hmc LSHIFT D  &kp N       &kp T             &kp G 
-                &kp LBKT  &kp SQT    &kp SEMI   &hmc LCTRL C  &kp COMMA    &qe   &hmc LCTRL K    &kp W  &kp J  &kp BSLH
-                                                &lt OTH SLASH &hmc LSHIFT SPC       &lt NAV R    &lt FUN  LS(N2)     
+                &kp Y    &kp O      &kp U      &kp B         &lt MED DOT   &kp W &kp H  &kp L              &kp V             &kp P
+                &kp I     &kp A      &kp E      &hmc LSHIFT S &kp F        &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
+                &kp LBKT  &kp SQT    &kp SEMI   &hmc LCTRL C  &kp COMMA    &qe   &hmc LCTRL K   &kp ENTER  &kp J             &kp BSLH
+                                                &lt OTH SLASH &hmc LSHIFT SPC       &lt NAV R   &lt FUN  LS(N2)     
             >;
         };
 
@@ -151,7 +151,7 @@
             bindings = <
                 &kp SLASH  &kp N6     &kp N5      &kp N4          &kp LS(BSLH)             &none           &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
                 &kp N3  &kp N2     &kp N1      &kp N0          &kp LS(N7)                  &none           &kp LARW    &kp DARW   &kp RARW &kp PG_DN
-                &kp MINUS &kp N9   &kp N8  &hmc LCTRL N7   &kp LS(N0)                      &none           &none       &kp PG_DN  &kp END  &kp PG_DN
+                &kp MINUS &kp N9   &kp N8  &hmc LCTRL N7   &kp LS(N0)                      &none           &kp TAB     &kp ENTER  &kp END  &kp PG_DN
                                         &hmc RALT COMMA   &lt SYM LC(BSPC)                 &trans           &trans
             >;
         };
