@@ -118,8 +118,8 @@
                  ;
     )
         ZMK_MACRO(wh,
-        wait-ms = <20>;
-        tap-ms = <20>;
+        wait-ms = <10>;
+        tap-ms = <10>;
         bindings = <&macro_tap &kp W >
                  , <&macro_release &kp LSHFT>
                  , <&macro_tap &kp H>
@@ -139,7 +139,7 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp Y    &kp O      &kp U      &kp B         &lt MED DOT   &sl OSH   &kp H  &kp L       &kp V             &kp P
+                &kp Y    &kp O      &kp U      &kp B         &lt MED DOT   &kp W &kp H  &kp L       &kp V             &kp P
                 &kp I     &kp A      &kp E      &hmc LSHIFT S &kp F        &kp M &hmc LSHIFT D  &kp N       &kp T             &kp G 
                 &kp LBKT  &kp SQT    &kp SEMI   &hmc LCTRL C  &kp COMMA    &qe   &hmc LCTRL K    &kp W  &kp J  &kp BSLH
                                                 &lt OTH SLASH &hmc LSHIFT SPC       &lt NAV R    &lt FUN  LS(N2)     
@@ -159,7 +159,7 @@
         other_layer {
             label = "Other";
             bindings = <
-                &trans	   &trans     &trans      &kp LC(R)          &trans       &trans           &trans         &trans       &trans       &bt BT_CLR
+                &kp ESC	   &trans     &trans      &kp LC(R)          &trans       &trans           &trans         &trans       &trans       &bt BT_CLR
                 &kp LC(A)     &kp LS(LG(S))     &trans      &kp LC(F)          &trans       &trans           &trans         &trans       &trans       &trans
                 &kp LC(Z)  &kp LC(X)     &kp LC(C)     &kp LC(V)          &trans       &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
                                                   &trans          &trans       &trans           &trans
