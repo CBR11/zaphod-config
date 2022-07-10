@@ -69,7 +69,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_PIPE";
             #binding-cells = <0>;
-            bindings = <&td LS(MINUS) LS(N2)>, <&kp N1>;
+            bindings = <&td LS(N1) LS(N2)>, <&kp LS(MINUS)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 	
