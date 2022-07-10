@@ -69,7 +69,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_PIPE";
             #binding-cells = <0>;
-            bindings = <&hmc LCTRL LS(MINUS)>, <&kp N1>;
+            bindings = <&kp LS(MINUS)>, <&kp N1>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 	
@@ -105,7 +105,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-	
+	   td: tapdance {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAPDANCE";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
 	    macros {
         ZMK_MACRO(ndash,
         wait-ms = <20>;
@@ -141,7 +149,7 @@
             bindings = <
                 &kp Y    &kp O      &kp U      &kp B         &lt MED DOT   &kp W &kp H          &kp L      &kp V             &kp P
                 &kp I     &kp A      &kp E      &hmc LSHIFT S &kp F        &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
-                &kp LBKT  &kp SQT    &kp SEMI   &hmc LCTRL C  &kp COMMA    &qe   &hmc LCTRL K   &kp ENTER  &kp J             &kp LS(N2)
+                &kp LBKT  &kp SQT    &kp SEMI   &hmc LCTRL C  &kp COMMA    &qe   &hmc LCTRL K   &kp ENTER  &kp J             &td qe LS(N2)
                                                 &lt OTH SLASH &hmc LSHIFT SPC       &lt NAV R   &lt FUN  BSLH     
             >;
         };
