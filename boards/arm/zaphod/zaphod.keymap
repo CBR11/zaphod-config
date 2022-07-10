@@ -69,7 +69,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_PIPE";
             #binding-cells = <0>;
-            bindings = <&kp LS(MINUS)>, <&kp N1>;
+            bindings = <&td LS(MINUS) LS(N2)>, <&kp N1>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 	
@@ -112,7 +112,7 @@
             tapping-term-ms = <200>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp>, <&qe>;
+            bindings = <&kp>, <&kp>;
         };
 	   td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
@@ -156,7 +156,7 @@
             bindings = <
                 &kp Y    &kp O      &kp U      &kp B         &lt MED DOT   &kp W &kp H          &kp L      &kp V             &kp P
                 &kp I     &kp A      &kp E      &hmc LSHIFT S &kp F        &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
-                &kp LBKT  &kp SQT    &kp SEMI   &hmc LCTRL C  &kp COMMA    &qe   &hmc LCTRL K   &kp ENTER  &kp J             &td LS(N2
+                &kp LBKT  &kp SQT    &kp SEMI   &hmc LCTRL C  &kp COMMA    &qe   &hmc LCTRL K   &kp ENTER  &kp J             &qe
                                                 &lt OTH SLASH &hmc LSHIFT SPC       &lt NAV R   &lt FUN  BSLH     
             >;
         };
