@@ -154,9 +154,9 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp LBKT   &kp O      &kp U      &kp B         &lt MED DOT   &kp W &kp H          &kp L      &kp V             &kp J
-                &kp I    &kp A      &kp E      &hmc LSHIFT S &kp F        &kp P &hmc LSHIFT D  &kp N      &kp T             &kp G 
-                &kp Y  &kp SQT   &kp SEMI    &hmc LCTRL C  &kp COMMA    &qe   &hmc LCTRL K   &kp ENTER  &kp M             &qe
+                &kp LBKT   &kp O      &kp U      &kp B         &lt MED DOT   &kp M &kp H          &kp L      &kp V             &kp W
+                &kp I    &kp A      &kp E      &hmc LSHIFT S &kp F        &kp K &hmc LSHIFT D  &kp N      &kp T             &kp G 
+                &kp Y  &kp SQT   &kp SEMI    &hmc LCTRL C  &kp COMMA    &qe   &hmc LCTRL P   &kp ENTER  &kp J             &qe
                                                 &lt OTH SLASH &hmc LSHIFT SPC       &lt NAV R   &lt FUN  BSLH     
             >;
         };
