@@ -65,6 +65,21 @@
 	 };        
 
     behaviors {
+            cit: cit_sp {
+            compatible = "zmk,behavior-mod-morph";
+            label = "cit sp";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N2)>, <&kp LS(MINUS)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+              apo: apo_ud {
+            compatible = "zmk,behavior-mod-morph";
+            label = "apo ud";
+            #binding-cells = <0>;
+            bindings = <&kp BSLH>, <&kp LS(N1)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };  
+    
         qe: comma_pipe {
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_PIPE";
@@ -156,8 +171,8 @@
             bindings = <
                 &kp LBKT   &kp O      &kp U      &kp B         &lt MED DOT   &kp F &kp H          &kp L      &kp V             &kp P 
                 &kp I    &kp A      &kp E      &hmc LSHIFT S &kp W        &kp K &hmc LSHIFT D  &kp N      &kp T             &kp G 
-                &kp Y  &kp SQT   &kp SEMI    &hmc LCTRL C  &kp COMMA    &none   &hmc LCTRL M   &kp ENTER  &kp J             &qe
-                                                &lt OTH SLASH &hmc LSHIFT SPC       &lt NAV R   &lt FUN BSLH     
+                &kp Y  &kp SQT   &kp SEMI    &hmc LCTRL C  &kp COMMA    &none   &hmc LCTRL M   &kp ENTER  &kp J             &cit
+                                                &lt OTH SLASH &hmc LSHIFT SPC       &lt NAV R   &lt FUN apo     
             >;
         };
 
