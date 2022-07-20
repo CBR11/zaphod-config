@@ -76,7 +76,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "apo ud";
             #binding-cells = <0>;
-            bindings = <&kp BSLH>, <&kp LS(N1)>;
+            bindings = <&lt FUN BSLH>, <&kp LS(N1)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };  
     
