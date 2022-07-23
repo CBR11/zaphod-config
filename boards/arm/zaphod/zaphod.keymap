@@ -179,7 +179,7 @@
     ) 
     
     MACRU(elipp, "elipp", &macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N3, 20, 20)
-    MACRU(pl, "pl", &macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N2, 20, 20)
+    MACRU(pl, "pl", &macro_tap &kp KP_N0 &kp KP_N3 &kp KP_N2 &kp KP_N2, 20, 20)
     };
 
     };
