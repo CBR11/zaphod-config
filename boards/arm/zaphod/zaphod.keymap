@@ -24,7 +24,7 @@
     layers = <LAYERS>; \
   };
 
-#define MACRU(NAME, LABEL, B1, B2, B3, WAIT, TAP) \
+#define MACRU(NAME, LABEL, B2, WAIT, TAP) \
         m_##NAME: ##NAME {  \
             label = ##LABEL; \
             compatible = "zmk,behavior-macro"; \
@@ -32,9 +32,9 @@
             wait-ms = <WAIT>; \
             tap-ms = <TAP>; \
             bindings \
-                = <B1> \
+                = <&macro_press   &kp LALT> \
 		, <B2> \
-                , <B3>; \
+                , <&macro_release &kp LALT>; \
    };
    
 &lt {
