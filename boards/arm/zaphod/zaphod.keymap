@@ -24,7 +24,7 @@
     layers = <LAYERS>; \
   };
 
-#define MACRU(NAME, LABEL, B1, B2, WAIT, TAP) \
+#define MACRU(NAME, LABEL, B1, B2, B3, WAIT, TAP) \
         m_##NAME: ##NAME {  \
             label = ##LABEL; \
             compatible = "zmk,behavior-macro"; \
