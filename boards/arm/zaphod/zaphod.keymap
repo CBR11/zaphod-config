@@ -178,7 +178,6 @@
 		 ;
     )    
     
-    / MACRU(elip, "zm_elip", &kp KP_N2 &kp KP_N0 &kp KP_N2 &kp KP_N6, 20, 20) /
     };
 
     };
