@@ -169,7 +169,16 @@
                  ;
     )
     
-    MACRU(elip, "zm_elip", &kp KP_N2 &kp KP_N0 &kp KP_N2 &kp KP_N6, 20, 20)
+        ZMK_MACRO(elip,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&macro_press   &kp LALT>
+                 , <&macro_tap     &kp KP_N2 &kp KP_N0 &kp KP_N2 &kp KP_N6>
+                 , <&macro_release &kp LALT>
+		 ;
+    )    
+    
+    / MACRU(elip, "zm_elip", &kp KP_N2 &kp KP_N0 &kp KP_N2 &kp KP_N6, 20, 20) /
     };
 
     };
