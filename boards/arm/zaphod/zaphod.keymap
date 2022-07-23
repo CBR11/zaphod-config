@@ -33,7 +33,8 @@
             tap-ms = <TAP>; \
             bindings \
                 = <B1> \
-                , <B2>; \
+		, <B2> \
+                , <B3>; \
    };
    
 &lt {
