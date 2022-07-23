@@ -66,7 +66,7 @@
         COMBO(lalt, &kp LALT, 12 22, 30, 0)
 	COMBO(ralt, &kp LALT, 17 27, 30, 0)
      	COMBO(rwin, &kp RGUI, 18 28, 30, 0)
- 	COMBO(z, &kp Z, 5 6, 30, 4)
+ 	COMBO(pl, &m_pl, 5 6, 30, 0)
 	COMBO(q, &kp Q, 7 8, 30, 4)
  	COMBO(x1, &kp X, 7 17, 60, 0)
 	COMBO(z1, &kp Z, 5 15, 60, 0)
@@ -179,7 +179,7 @@
     ) 
     
     MACRU(elipp, "elipp", &macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N3, 20, 20)
-    
+    MACRU(pl, "pl", &macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N2, 20, 20)
     };
 
     };
