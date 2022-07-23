@@ -72,7 +72,7 @@
 	COMBO(z1, &kp Z, 5 15, 60, 0)
 	COMBO(q1, &kp Q, 8 18, 60, 0)	
 	COMBO(at, &at, 13 14, 30, 0)
-	COMBO(wh, &wh, 6 16, 80, 0)
+	COMBO(elip, &elip, 6 16, 80, 0)
         COMBO(ndash, &ndash, 2 12, 100, 0)
 	
 	 };        
@@ -169,7 +169,7 @@
                  ;
     )
     
-    MACRU(elip, "elip", &kp KP_N2 &kp KP_N0 &kp KP_N2 &kp KP_N6, 20, 20)
+    MACRU(elip, "zm_elip", &kp KP_N2 &kp KP_N0 &kp KP_N2 &kp KP_N6, 20, 20)
     };
 
     };
