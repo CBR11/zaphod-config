@@ -195,7 +195,7 @@
             bindings = <
                 &kp Y   &kp O      &kp U      &kp C         &lt MED DOT   &cit &kp K          &kp L      &kp V             &kp P
                 &kp I   &kp A      &kp E      &hmc LSHIFT S &kp W         &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
-                &kp SEMI &kp SQT   &kp LBKT   &hmc LCTRL B  &kp COMMA     &kp Z &hmc LCTRL H   &kp ENTER  &kp J             &kp F
+                &kp SEMI &kp SQT   &kp LBKT   &hmc LCTRL F  &kp COMMA     &kp Z &hmc LCTRL H   &kp ENTER  &kp J             &kp B
                                                 &lt OTH SLASH &hmc LSHIFT SPC       &lt NAV R   &apo     
             >;
         };
