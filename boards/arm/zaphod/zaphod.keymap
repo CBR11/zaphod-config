@@ -204,7 +204,7 @@
             label = "Nav";
             bindings = <
                 &kp SLASH  &kp N6     &kp N5      &kp N4          &kp LS(BSLH)             &none           &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
-                &kp N3  &kp N2     &kp N1      &kp N0          &kp LS(N7)                  &none           &kp LARW    &kp DARW   &kp RARW &kp PG_DN
+                &kp N3  &kp N2     &kp N1      &hmc LSHIFT N0     &kp LS(N7)                  &none           &kp LARW    &kp DARW   &kp RARW &kp PG_DN
                 &kp MINUS &kp N9   &kp N8  &hmc LCTRL N7   &kp LS(N0)                      &none           &kp TAB     &kp ENTER  &kp END  &kp PG_DN
                                      &lt SYM LC(BSPC)    &hmc RALT COMMA                   &trans           &trans
             >;
