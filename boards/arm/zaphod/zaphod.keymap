@@ -58,23 +58,24 @@
 	COMBO(um, &kp RBKT, 25 26, 30, 0)
 	COMBO(nj, &nj, 23 24, 30, 0)
 	COMBO(ac, &kp EQUAL, 15 16, 30, 0)
-	COMBO(tab, &kp TAB, 26 27, 30, 0)
-	COMBO(enter, &kp ENTER, 27 28, 30, 0 1)
-	COMBO(enter1, &kp ENTER, 21 22, 30, 0 1)
+	COMBO(apo, &apo, 1 11, 30, 0 1)
+	COMBO(tab, &kp TAB, 2 12, 30, 0 1)
+	COMBO(enter, &kp ENTER, 7 17, 30, 0 1)
+	COMBO(cit, &kp LS(N2), 8 18, 30, 0 1)
  	COMBO(tog, &tog 1, 30 31, 30, 0 1)
         COMBO(lwin, &kp LGUI, 11 21, 30, 0)  
         COMBO(lalt, &kp LALT, 12 22, 30, 0)
 	COMBO(ralt, &kp LALT, 17 27, 30, 0)
      	COMBO(rwin, &kp RGUI, 18 28, 30, 0)
- 	COMBO(eth, &m_eth, 5 6, 30, 0)
-	COMBO(thorn, &m_thorn, 7 8, 30, 0)
-	COMBO(ss, &m_ss, 6 7, 30, 0)
- 	COMBO(x1, &kp X, 7 17, 60, 0)
-	COMBO(z1, &kp Z, 5 15, 60, 0)
-	COMBO(q1, &kp Q, 8 18, 60, 0)	
+ 	COMBO(eth, &m_eth, 5 6, 30, 6)
+	COMBO(thorn, &m_thorn, 7 8, 30, 6)
+	COMBO(ss, &m_ss, 6 7, 30, 6)
+ 	COMBO(x1, &kp X, 7 17, 60, 6)
+	COMBO(z1, &kp Z, 5 15, 60, 6)
+	COMBO(q1, &kp Q, 8 18, 60, 6)	
 	COMBO(at, &at, 13 14, 30, 0)
-	COMBO(elip, &m_elip, 6 16, 80, 0)
-        COMBO(ndash, &m_ndash, 2 12, 100, 0)
+	COMBO(elip, &m_elip, 6 16, 80, 6)
+        COMBO(ndash, &m_ndash, 2 12, 100, 6)
 	COMBO(uni, &uni, 32 33, 60, 0)
 	
 	
@@ -92,7 +93,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "apo ud";
             #binding-cells = <0>;
-            bindings = <&lt FUN BSLH>, <&kp LS(N1)>;
+            bindings = <&kp BSLH>, <&kp LS(N1)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };  
     
@@ -193,10 +194,10 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp LBKT   &kp O      &kp U      &kp B         &lt MED DOT   &kp P &kp K          &kp L      &kp V             &cit
-                &kp I   &kp A      &kp E      &hmc LSHIFT S &kp COMMA         &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
-                &kp Y &kp SQT   &kp SEMI   &hmc LCTRL F  &kp ENTER    &kp Z &hmc LCTRL H   &kp W  &kp J             &kp C
-                                           &hmc LSHIFT SPC   &lt OTH SLASH       &apo  &lt NAV R   
+                &kp LBKT   &kp O      &kp U      &kp F         &lt MED COMMA   &kp P &kp H          &kp L      &kp V             &kp C
+                &kp I   &kp A      &kp E      &hmc LSHIFT S &kp DOT        &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
+                &kp Y &kp SQT   &kp SEMI   &hmc LCTRL B  &kp LS(MINUS)    &kp Z &hmc LCTRL K   &kp SLASH  &kp J             &kp W
+                                         &lt OTH Q  &hmc LSHIFT SPC            &lt NAV R &lt FUN X  
             >;
         };
 
