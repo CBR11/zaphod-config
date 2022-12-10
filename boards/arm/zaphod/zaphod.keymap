@@ -72,7 +72,8 @@
         COMBO(lalt, &kp LALT, 12 22, 30, 0)
 	COMBO(ralt, &kp LALT, 17 27, 30, 0)
      	COMBO(rwin, &kp RGUI, 18 28, 30, 0)
- 	COMBO(eth, &m_eth, 5 6, 30, 6)
+	COMBO(Lpara, &kp LS(N8), 3 4, 30, 0)
+ 	COMBO(Rpara, &kp LS(N9), 5 6, 30, 0)
 	COMBO(thorn, &m_thorn, 7 8, 30, 6)
 	COMBO(ss, &m_ss, 6 7, 30, 6)
 	COMBO(at, &at, 13 14, 30, 0)
@@ -197,7 +198,7 @@
             bindings = <
                 &kp LBKT   &kp O      &kp U      &kp F         &lt MED COMMA   &kp P &kp H          &kp L      &kp V             &kp C
                 &kp I   &kp A      &kp E      &hmc LSHIFT S &kp DOT        &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
-                &kp Y &kp SQT   &kp SEMI   &hmc LCTRL B  &kp X    &kp Z &hmc LCTRL K   &sk LSHIFT  &kp J             &kp SLASH
+                &kp Y &kp SQT   &kp SEMI   &hmc LCTRL B  &kp X    &kp Z &hmc LCTRL K   &kp SLASH  &kp J       &sk LSHIFT      
                                          &lt OTH Q  &hmc LSHIFT SPC            &lt NAV R &lt FUN W  
             >;
         };
