@@ -61,6 +61,7 @@
 	COMBO(apo, &apo, 1 11, 30, 0 1)
 	COMBO(tab, &kp TAB, 2 12, 30, 0)
 	COMBO(ques, &kp LS(MINUS), 3 13, 30, 0)
+	COMBO(udraab, &kp LS(N1), 6 16, 80, 0)
 	COMBO(enter, &kp ENTER, 7 17, 30, 0 1)
 	COMBO(enter1, &kp ENTER, 2 12, 30, 1)
 	COMBO(cit, &kp LS(N2), 8 18, 30, 0 1)
@@ -91,7 +92,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "apo ud";
             #binding-cells = <0>;
-            bindings = <&kp BSLH>, <&kp LS(N1)>;
+            bindings = <&kp BSLH>, <&kp RA(N8)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };  
     
@@ -107,7 +108,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "nino nino";
             #binding-cells = <0>;
-            bindings = <&kp RA(RBKT)>, <&kp N4>;
+            bindings = <&kp RA(RBKT)>, <&kp LS(N4)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         
