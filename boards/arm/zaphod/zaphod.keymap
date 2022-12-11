@@ -16,6 +16,10 @@
 #define MED 5
 #define FUN 6
 
+&sk {
+    quick-release;
+};
+
 #define COMBO(NAME, BINDINGS, KEYPOS, MS, LAYERS) \
   combo_##NAME { \
     bindings = <BINDINGS>; \
