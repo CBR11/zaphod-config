@@ -71,7 +71,6 @@
 	COMBO(enter, &kp ENTER, 7 17, 30, 0 1)
 	COMBO(enter1, &kp ENTER, 2 12, 30, 1)
 	COMBO(udraab, &kp LS(N1), 8 18, 80, 0)
-	COMBO(SKshift, &sk LSHIFT, 9 19, 120, 0)
 	COMBO(tog, &tog 1, 30 31, 30, 0 1)
         COMBO(lwin, &kp LGUI, 11 21, 30, 0)  
         COMBO(lalt, &kp LALT, 12 22, 30, 0)
@@ -201,10 +200,10 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp LBKT   &kp O      &kp U      &kp F         &lt MED COMMA   &kp P &kp H          &kp L      &kp V             &kp C
+                &kp LBKT   &kp O      &kp U      &kp F      &lt MED COMMA   &kp P &kp H          &kp L      &kp V             &sk LSHIFT
                 &kp I   &kp A      &kp E      &hmc LSHIFT S &kp DOT        &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
-                &kp Y &kp SQT   &kp SEMI   &hmc LCTRL B  &kp X    &kp Z &hmc LCTRL K   &kp SLASH  &kp J       &none      
-                                         &lt OTH Q  &hmc LSHIFT SPC            &lt NAV R   &lt FUN W
+                &kp Y &kp SQT   &kp SEMI   &hmc LCTRL B  &kp X             &kp Z &hmc LCTRL K    &kp C  &kp J            &kp W
+                                         &lt OTH Q  &hmc LSHIFT SPC            &lt NAV R   &lt FUN SLASH
             >;
         };
 
