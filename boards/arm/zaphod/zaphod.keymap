@@ -92,7 +92,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "cit rp";
             #binding-cells = <0>;
-            bindings = <&kp LS(N2)>, <&kp LS(N9)>;
+            bindings = <&kp LS(N2)>, <&kp BSLH>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
           apo: apo_ud {
@@ -203,16 +203,16 @@
                 &kp LBKT   &kp O      &kp U      &kp F      &lt MED COMMA   &kp P &kp H          &kp L      &kp V             &sk LSHIFT
                 &kp I   &kp A      &kp E      &hmc LSHIFT S &kp DOT        &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
                 &kp Y &kp SQT   &kp SEMI   &hmc LCTRL B  &qe             &kp SLASH &hmc LCTRL K    &kp C  &kp J            &kp W
-                                         &hmc LALT BSLH   &lt OTH SPC            &lt NAV R   &hmc LGUI LS(N2)
+                                         &hmc LALT BSLH   &lt OTH SPC            &lt NAV R   &hmc LGUI cit
             >;
         };
 
         nav_layer {
             label = "Nav";
             bindings = <
-                &kp SLASH  &kp N6     &kp N5      &kp N4          &kp LS(BSLH)             &none           &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
-                &kp N3  &kp N2     &kp N1      &hmc LSHIFT N0     &kp LS(N7)               &sk LSHIFT      &kp LARW    &kp DARW   &kp RARW &kp PG_DN
-                &kp MINUS &kp N9   &kp N8  &hmc LCTRL N7   &kp LS(N0)                      &kp LC(Z)       &kp TAB     &kp ENTER  &kp END  &kp PG_DN
+                &kp SLASH  &kp N6     &kp N5      &kp N4          &kp LS(BSLH)             &none      &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
+                &kp N3  &kp N2     &kp N1      &hmc LSHIFT N0     &kp LS(N7)               &none      &kp LARW    &kp DARW   &kp RARW &kp PG_DN
+                &kp MINUS &kp N9   &kp N8  &hmc LCTRL N7   &kp LS(N0)                      &none      &kp TAB     &kp ENTER  &kp END  &kp PG_DN
                                     &hmc RALT COMMA &lt SYM LC(BSPC)                       &trans           &trans
             >;
         };
@@ -220,9 +220,9 @@
         other_layer {
             label = "Other";
             bindings = <
-                &kp ESC	   &trans        &trans      &kp LC(R)          &kp RA(N4)      &kp RA(M) &kp LS(N3) &kp LS(N5) &kp RA(N0) &kp RA(N7)          
-                &kp LS(LG(S)) &kp LC(A) &trans      &kp LC(F)          &kp RA(N5)       &kp RA(NON_US_BSLH)  &kp LS(N9) &kp LS(N8) &kp RA(N9)  &kp RA(N8)
-                &kp LC(Z)  &kp LC(X)     &kp LC(C)   &kp LC(V)         &kp RA(N3)      &kp RA(EQUAL)  &kp GRAVE  &kp LS(GRAVE) &kp LS(NON_US_BSLH)  &kp NON_US_BSLH 
+                &kp ESC	      &trans    &trans      &kp LC(R)         &kp RA(N4)      &kp RA(M) &kp RA(N8) &kp RA(N9) &kp LS(N5) &kp LS(N3)            
+                &kp LS(LG(S)) &kp LC(A) &trans      &kp LC(F)         &kp RA(N5)      &kp RA(NON_US_BSLH)  &kp LS(N8) &kp LS(N9) &kp NON_US_BSLH &kp LS(NON_US_BSLH)   
+                &kp LC(Z)     &kp LC(X) &kp LC(C)   &kp LC(V)         &kp RA(N3)      &kp RA(EQUAL)  &kp RA(N7) &kp RA(N0)  &kp GRAVE  &kp LS(GRAVE)    
                                                   &trans          &trans       &trans           &trans
             >;
         };
