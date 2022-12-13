@@ -92,7 +92,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "cit rp";
             #binding-cells = <0>;
-            bindings = <&kp LS(N2)>, <&kp BSLH>;
+            bindings = <&hmc LGUI LS(N2)>, <&kp BSLH>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
           apo: apo_ud {
@@ -203,7 +203,7 @@
                 &kp LBKT   &kp O      &kp U      &kp F      &lt MED COMMA   &kp P &kp H          &kp L      &kp V             &sk LSHIFT
                 &kp I   &kp A      &kp E      &hmc LSHIFT S &kp DOT        &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
                 &kp Y &kp SQT   &kp SEMI   &hmc LCTRL B  &qe             &kp SLASH &hmc LCTRL K    &kp C  &kp J            &kp W
-                                         &hmc LALT BSLH   &lt OTH SPC            &lt NAV R   &hmc LGUI cit
+                                         &hmc LALT BSLH   &lt OTH SPC            &lt NAV R   &cit
             >;
         };
 
