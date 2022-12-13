@@ -64,13 +64,13 @@
 	COMBO(ac, &kp EQUAL, 15 16, 30, 0)
 	COMBO(apo, &apo, 1 11, 80, 0 1)
 	COMBO(tab, &kp TAB, 2 12, 30, 0)
-	COMBO(ques, &qe, 3 13, 80, 0)
+	COMBO(x, &kp X, 3 13, 80, 0)
 	COMBO(semiK, &kp LS(COMMA), 4 14, 30, 0)
 	COMBO(Kolon, &kp LS(DOT), 5 15, 30, 0)
-	COMBO(cit, &cit, 6 16, 80, 0 1)
+	COMBO(z, &kp Z, 6 16, 80, 0 1)
 	COMBO(enter, &kp ENTER, 7 17, 30, 0 1)
 	COMBO(enter1, &kp ENTER, 2 12, 30, 1)
-	COMBO(udraab, &kp LS(N1), 8 18, 80, 0)
+	COMBO(q, &kp Q, 8 18, 80, 0)
 	COMBO(tog, &tog 1, 30 31, 30, 0 1)
         COMBO(lwin, &kp LGUI, 11 21, 30, 0)  
         COMBO(lalt, &kp LALT, 12 22, 30, 0)
@@ -103,11 +103,11 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };  
     
-          qe: qe_lp {
+          qe: qe {
             compatible = "zmk,behavior-mod-morph";
-            label = "qe lp";
+            label = "qe";
             #binding-cells = <0>;
-            bindings = <&kp LS(MINUS)>, <&kp LS(N8)>;
+            bindings = <&kp LS(MINUS)>, <&kp LS(N1)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 	
@@ -202,8 +202,8 @@
             bindings = <
                 &kp LBKT   &kp O      &kp U      &kp F      &lt MED COMMA   &kp P &kp H          &kp L      &kp V             &sk LSHIFT
                 &kp I   &kp A      &kp E      &hmc LSHIFT S &kp DOT        &kp M &hmc LSHIFT D  &kp N      &kp T             &kp G 
-                &kp Y &kp SQT   &kp SEMI   &hmc LCTRL B  &kp X             &kp Z &hmc LCTRL K    &kp C  &kp J            &kp W
-                                         &lt OTH Q  &hmc LSHIFT SPC            &lt NAV R   &lt FUN SLASH
+                &kp Y &kp SQT   &kp SEMI   &hmc LCTRL B  &qe             &kp SLASH &hmc LCTRL K    &kp C  &kp J            &kp W
+                                         &hmc LALT BSLH   &lt OTH SPC            &lt NAV R   &hmc LGUI LS(N2)
             >;
         };
 
@@ -212,7 +212,7 @@
             bindings = <
                 &kp SLASH  &kp N6     &kp N5      &kp N4          &kp LS(BSLH)             &none           &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
                 &kp N3  &kp N2     &kp N1      &hmc LSHIFT N0     &kp LS(N7)               &sk LSHIFT      &kp LARW    &kp DARW   &kp RARW &kp PG_DN
-                &kp MINUS &kp N9   &kp N8  &hmc LCTRL N7   &kp LS(N0)                      &none           &kp TAB     &kp ENTER  &kp END  &kp PG_DN
+                &kp MINUS &kp N9   &kp N8  &hmc LCTRL N7   &kp LS(N0)                      &kp LC(Z)       &kp TAB     &kp ENTER  &kp END  &kp PG_DN
                                     &hmc RALT COMMA &lt SYM LC(BSPC)                       &trans           &trans
             >;
         };
@@ -220,9 +220,9 @@
         other_layer {
             label = "Other";
             bindings = <
-                &kp ESC	   &trans     &trans      &kp LC(R)          &trans       &trans           &trans         &trans       &trans       &trans
-                &kp LC(A)     &kp LS(LG(S))     &trans      &kp LC(F)          &trans       &trans           &trans         &trans       &trans       &trans
-                &kp LC(Z)  &kp LC(X)     &kp LC(C)     &kp LC(V)          &trans       &trans    &trans  &trans  &trans &trans
+                &kp ESC	   &trans        &trans      &kp LC(R)          &kp RA(N4)      &kp RA(M) &kp LS(N3) &kp LS(N5) &kp RA(N0) &kp RA(N7)          
+                &kp LS(LG(S)) &kp LC(A) &trans      &kp LC(F)          &kp RA(N5)       &kp RA(NON_US_BSLH)  &kp LS(N9) &kp LS(N8) &kp RA(N9)  &kp RA(N8)
+                &kp LC(Z)  &kp LC(X)     &kp LC(C)   &kp LC(V)         &kp RA(N3)      &kp RA(EQUAL)  &kp GRAVE  &kp LS(GRAVE) &kp LS(NON_US_BSLH)  &kp NON_US_BSLH 
                                                   &trans          &trans       &trans           &trans
             >;
         };
@@ -250,9 +250,9 @@
         media_layer {
             label = "Media";
             bindings = <
-                &trans	   &kp C_PREV &kp C_VOL_UP &kp C_PP       &none             &trans           &trans         &trans       &trans       &trans
-                &trans     &kp C_NEXT &kp C_VOL_DN &kp C_STOP     &bt BT_CLR        &trans           &trans         &trans       &trans       &trans
-                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &trans           &trans         &trans       &trans       &trans
+                &trans	   &kp C_PREV &kp C_VOL_UP &kp C_PP       &none             &kp PSCRN          &kp F5  &kp F6   &kp F7   &kp F8
+                &trans     &kp C_NEXT &kp C_VOL_DN &kp C_STOP     &bt BT_CLR        &kp SLCK           &kp F1  &kp F2   &kp F3   &kp F4
+                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &kp PAUSE_BREAK    &kp F9  &kp F10  &kp F11  &kp F12
                                                   &kp LA(TAB)     &kp LC(TAB)  &trans       &trans
             >;
         };
