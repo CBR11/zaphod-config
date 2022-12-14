@@ -62,7 +62,7 @@
 	COMBO(um, &kp RBKT, 25 26, 30, 0)
 	COMBO(nj, &nj, 23 24, 30, 0)
 	COMBO(ac, &kp EQUAL, 15 16, 30, 0)
-	COMBO(apo, &apo, 1 11, 80, 0 1)
+	COMBO(apo, &apo, 1 11, 120, 0 1)
 	COMBO(tab, &kp TAB, 2 12, 30, 0)
 	COMBO(x, &kp X, 3 13, 80, 0)
 	COMBO(semiK, &kp LS(COMMA), 4 14, 30, 0)
@@ -200,10 +200,10 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp LBKT &kp O   &kp U     &kp F         &lt MED COMMA     &kp P           &kp H          &kp L  &kp V   &kp W
-                &kp I    &kp A   &kp E     &hmc LSHIFT S &kp DOT           &kp M           &hmc LSHIFT D  &kp N  &kp T   &kp G 
-                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL B  &qe               &hmc LGUI SLASH &hmc LCTRL K   &kp C  &kp J   &sk LSHIFT  
-                                           &none         &lt OTH SPC       &lt NAV R       &none
+                &kp LBKT &kp O   &kp U     &kp F         &lt MED COMMA     &kp P            &kp H          &kp L  &kp V   &kp W
+                &kp I    &kp A   &kp E     &hmc LSHIFT S &kp DOT           &kp M            &hmc LSHIFT D  &kp N  &kp T   &kp G 
+                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL B  &qe               &hmc LGUI LS(N2) &hmc LCTRL K   &kp C  &kp J   &sk LSHIFT  
+                                           &none         &lt OTH SPC       &lt NAV R        &kp SLASH
             >;
         };
 
@@ -211,7 +211,7 @@
             label = "Nav";
             bindings = <
                 &kp SLASH &kp N6 &kp N5 &kp N4         &kp LS(BSLH)             &none      &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
-                &kp N3    &kp N2 &kp N1 &hmc LSHIFT N0 &kp LS(N7)               &kp LS(N2) &kp LARW    &kp DARW   &kp RARW &kp PG_DN
+                &kp N3    &kp N2 &kp N1 &hmc LSHIFT N0 &kp LS(N7)               &none      &kp LARW    &kp DARW   &kp RARW &kp PG_DN
                 &kp MINUS &kp N9 &kp N8 &hmc LCTRL N7  &kp LS(N0)               &kp BSLH   &kp TAB     &kp ENTER  &kp END  &kp PG_DN
                                     &hmc RALT COMMA &lt SYM LC(BSPC)                       &trans           &trans
             >;
