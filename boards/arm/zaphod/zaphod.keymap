@@ -203,7 +203,7 @@
                 &kp LBKT &kp O   &kp U     &kp W         &lt MED COMMA     &kp P            &kp H          &kp L  &kp V   &kp F
                 &kp I    &kp A   &kp E     &hmc LSHIFT S &kp DOT           &kp M            &hmc LSHIFT D  &kp N  &kp T   &kp G 
                 &kp Y    &kp SQT &kp SEMI  &hmc LCTRL B  &qe               &hmc LGUI LS(N2) &hmc LCTRL K   &kp C  &kp J   &sk LSHIFT  
-                                           &none         &lt OTH SPC       &lt NAV R        &kp SLASH
+                                           &mo OTH       &kp SPC           &lt NAV R        &kp SLASH
             >;
         };
 
