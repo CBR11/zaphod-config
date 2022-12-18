@@ -71,7 +71,7 @@
 	COMBO(enter, &kp ENTER, 7 17, 30, 0 1)
 	COMBO(enter1, &kp ENTER, 2 12, 30, 1)
 	COMBO(q, &kp Q, 8 18, 80, 0)
-	COMBO(xxx, &tog 3, 9 19, 30, 0 1)
+	COMBO(xxx, &to 3, 9 19, 30, 0 1 2 3)
 	COMBO(tog, &tog 1, 30 31, 30, 0 1)
         COMBO(lwin, &kp LGUI, 11 21, 30, 0)  
         COMBO(lalt, &kp LALT, 12 22, 30, 0)
