@@ -73,10 +73,10 @@
 	COMBO(q, &kp Q, 8 18, 80, 0)
 	COMBO(xxx, &to 3, 9 19, 30, 6)
 	COMBO(tog, &tog 1, 30 31, 30, 0 1)
-        COMBO(lwin, &kp LGUI, 11 21, 30, 0)  
-        COMBO(lalt, &kp LALT, 12 22, 30, 0)
-	COMBO(ralt, &kp LALT, 17 27, 30, 0)
-     	COMBO(rwin, &kp RGUI, 18 28, 30, 0)
+        COMBO(lwin, &kp LGUI, 11 21, 30, 6)  
+        COMBO(lalt, &kp LALT, 12 22, 30, 6)
+	COMBO(rctrl, &sk RCTRL, 17 27, 30, 0)
+     	COMBO(rwin, &kp RGUI, 18 28, 30, 6)
 	COMBO(Lpara, &kp LS(N8), 14 24, 30, 0)
  	COMBO(Rpara, &kp LS(N9), 15 25, 30, 0)
 	COMBO(thorn, &m_thorn, 7 8, 30, 6)
@@ -201,10 +201,10 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp LBKT &kp O   &kp U     &kp F        &mo MED            &kp P            &kp H          &kp L  &kp V   &kp COMMA
-                &kp I    &kp A   &kp E     &hmc LSHIFT G &kp C             &kp M            &hmc LSHIFT D  &kp N  &kp T    &kp S
-                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL B  &qe               &hmc LGUI LS(N2) &hmc LCTRL K   &kp W  &kp J   &kp DOT 
-                                           &mo OTH       &kp SPC           &lt NAV R        &kp SLASH
+                &kp LBKT &kp O   &kp U     &kp F         &mo MED           &kp P            &kp H          &kp L  &kp V   &kp COMMA
+                &kp I    &kp A   &kp E     &hmc LSHIFT G &kp C             &kp M            &hmc LSHIFT D  &kp N  &kp T   &kp S
+                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL B  &qe               &hmc LGUI SLASH  &hmc LCTRL K   &kp W  &kp J   &kp DOT 
+                                           &mo OTH       &kp SPC           &lt NAV R        &kp LS(N2)
             >;
         };
 
@@ -213,8 +213,8 @@
             bindings = <
                 &kp SLASH &kp N6 &kp N5 &kp N4         &kp LS(BSLH)             &none      &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
                 &kp N3    &kp N2 &kp N1 &hmc LSHIFT N0 &kp LS(N7)               &none      &kp LARW    &kp DARW   &kp RARW &kp PG_DN
-                &kp MINUS &kp N9 &kp N8 &hmc LCTRL N7  &kp LS(N0)               &kp BSLH   &kp TAB     &kp ENTER  &kp END  &kp PG_DN
-                                    &hmc RALT COMMA &lt SYM LC(BSPC)                       &trans           &trans
+                &kp MINUS &kp N9 &kp N8 &hmc LCTRL N7  &kp LS(N0)               &none      &none       &none      &kp HOME &kp END
+                                        &kp COMMA      &lt SYM LC(BSPC)         &trans     &trans
             >;
         };
 
