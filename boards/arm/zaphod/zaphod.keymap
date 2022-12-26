@@ -108,7 +108,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "qe";
             #binding-cells = <0>;
-            bindings = <&hmc LALT LS(MINUS)>, <&kp LS(N1)>;
+            bindings = <&lt MED LS(MINUS)>, <&kp LS(N1)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 	
@@ -201,10 +201,10 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp LBKT &kp O   &kp U     &kp  H        &lt MED COMMA     &kp P            &kp K          &kp L  &kp M   &kp V 
-                &kp I    &kp A   &kp E     &hmc LSHIFT S &kp DOT           &kp F            &hmc LSHIFT D  &kp N  &kp T   &kp G
-                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL B  &qe               &hmc LGUI W      &hmc LCTRL LS(N2)   &sk LSHIFT   &kp J  &kp C  
-                                           &mo OTH       &kp SPC           &lt NAV R        &kp SLASH 
+                &kp LBKT &kp O   &kp U     &kp  H            &qe           &kp P            &kp K          &kp L  &kp M   &kp V 
+                &kp I    &kp A   &kp E     &hmc LSHIFT S     &kp DOT       &kp F            &hmc LSHIFT D  &kp N  &kp T   &kp G
+                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL COMMA  &kp SLASH     &hmc LGUI W      &hmc LCTRL B   &sk LSHIFT   &kp J  &kp C  
+                                           &mo OTH       &kp SPC           &lt NAV R        &kp  LS(N2)
             >;
         };
 
@@ -251,9 +251,9 @@
         media_layer {
             label = "Media";
             bindings = <
-                &trans	   &kp C_PREV &kp C_VOL_UP &kp C_PP       &none             &kp PSCRN          &kp F5  &kp F6   &kp F7   &kp F8
-                &trans     &kp C_NEXT &kp C_VOL_DN &kp C_STOP     &bt BT_CLR        &kp SLCK           &kp F1  &kp F2   &kp F3   &kp F4
-                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &kp PAUSE_BREAK    &kp F9  &kp F10  &kp F11  &kp F12
+                &trans	      &kp C_PREV    &kp C_VOL_UP &kp C_PP     &none             &kp PSCRN          &kp F5  &kp F6   &kp F7   &kp F8
+                &trans        &kp C_NEXT    &kp C_VOL_DN &kp C_STOP   &bt BT_CLR        &kp SLCK           &kp F1  &kp F2   &kp F3   &kp F4
+                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &kp PAUSE_BREAK    &kp F9  &kp F10  &kp F11  &kp F12
                                                   &kp LA(TAB)     &kp LC(TAB)  &trans       &trans
             >;
         };
