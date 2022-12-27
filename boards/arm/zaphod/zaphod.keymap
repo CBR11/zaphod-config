@@ -202,8 +202,8 @@
             label = "Base";
             bindings = <
                 &kp LBKT &kp O   &kp U     &kp  H            &qe             &kp P            &kp K          &kp L      &kp M   &kp V 
-                &kp I    &kp A   &kp E     &hmc LSHIFT S     &kp DOT         &kp B            &hmc LSHIFT D  &kp N      &kp T   &kp G
-                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL COMMA  &hmc LALT SLASH &hmc LGUI W      &hmc LCTRL F   &sk LSHIFT &kp J   &kp C  
+                &kp I    &kp A   &kp E     &hmc LSHIFT S     &kp DOT         &kp F            &hmc LSHIFT D  &kp N      &kp T   &kp G
+                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL COMMA  &hmc LALT SLASH &hmc LGUI W      &hmc LCTRL B   &sk LSHIFT &kp J   &kp C  
                                            &mo OTH       &kp SPC             &lt NAV R        &kp  LS(N2)
             >;
         };
