@@ -233,7 +233,7 @@
             bindings = <
                 &trans &trans   &trans     &trans        &trans      &trans           &trans          &trans  &trans  &trans
                 &trans   &trans   &trans    &trans &trans            &trans &trans   &trans     &trans        &trans
-                &trans    &trans &trans  &trans  &trans               &trans &trans  &kp CAPS     &trans        &transT 
+                &trans    &trans &trans  &trans  &trans               &trans &trans  &kp CAPS     &trans        &trans 
                                            &kp LC(BSPC)       &kp BSPC           &trans        &trans
             >;
         };
