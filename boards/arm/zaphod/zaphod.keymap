@@ -231,7 +231,7 @@
         r_layer {
             label = "R";
             bindings = <
-                &trans &trans   &trans     &trans        &trans      &trans           &trans          &trans  &trans  &trans
+                &trans &trans   &trans     &trans        &kp LC(Z)      &trans           &trans          &trans  &trans  &trans
                 &trans   &trans   &trans    &trans &trans            &trans &trans   &trans     &trans        &trans
                 &trans    &trans &trans  &trans  &trans               &trans &trans  &kp CAPS     &trans        &trans 
                                            &kp LC(BSPC)       &kp BSPC           &trans        &trans
