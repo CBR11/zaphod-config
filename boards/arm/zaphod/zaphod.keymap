@@ -11,7 +11,7 @@
 
 #define NAV 1
 #define OTH 2
-#define OSH 3
+#define RRR 3
 #define SYM 4
 #define MED 5
 #define FUN 6
@@ -204,7 +204,7 @@
                 &kp LBKT &kp O   &kp U     &kp  H            &qe             &kp P            &kp K          &kp L      &kp M   &kp V 
                 &kp I    &kp A   &kp E     &hmc LSHIFT S     &kp DOT         &kp F            &hmc LSHIFT D  &kp N      &kp T   &kp G
                 &kp Y    &kp SQT &kp SEMI  &hmc LCTRL COMMA  &hmc LALT SLASH &hmc LGUI W      &hmc LCTRL B   &sk LSHIFT &kp J   &kp C  
-                                           &mo OTH       &kp SPC             &lt NAV R        &kp  LS(N2)
+                                           &mo OTH       &kp SPC             &lt RRR R        &lt NAV  LS(N2)
             >;
         };
 
@@ -228,13 +228,13 @@
             >;
         };
 
-        osh_layer {
-            label = "Oneshot";
+        r_layer {
+            label = "R";
             bindings = <
-                &kp LBKT &kp O   &kp U     &kp F        &mo MED      &kp P            &kp H          &kp L  &kp V   &kp COMMA
-                &kp I    &kp A   &kp E     &hmc LSHIFT G &kp C            &kp M            &hmc LSHIFT D  &kp N  &kp T    &kp S
-                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL B  &qe               &hmc LGUI LS(N2) &hmc LCTRL K   &kp W  &kp J   &kp DOT 
-                                           &mo OTH       &kp SPC           &lt NAV R        &kp SLASH
+                &trans &trans   &trans     &trans        &trans      &trans           &trans          &trans  &trans  &trans
+                &trans   &trans   &trans    &trans &trans            &trans &trans   &trans     &trans        &trans
+                &trans    &trans &trans  &trans  &trans               &trans &trans  &kp CAPS     &trans        &transT 
+                                           &kp LC(BSPC)       &kp BSPC           &trans        &trans
             >;
         };
 
