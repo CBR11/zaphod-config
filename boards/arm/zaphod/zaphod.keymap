@@ -108,7 +108,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "qe";
             #binding-cells = <0>;
-            bindings = <&hmc LGUI LS(MINUS)>, <&kp LS(N1)>;
+            bindings = <&lt MED LS(MINUS)>, <&kp LS(N1)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 	
@@ -201,9 +201,9 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp LBKT &kp O   &kp U     &kp H         &lt MED COMMA       &kp P            &kp K          &kp L      &kp M   &kp V 
-                &kp I    &kp A   &kp E     &hmc LSHIFT S &hmc LALT DOT       &kp F            &hmc LSHIFT D  &kp N      &kp T   &kp G
-                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL B  &qe                 &kp BSPC         &hmc LCTRL W   &kp SLASH  &kp J   &kp C  
+                &kp LBKT &kp O   &kp U     &kp H             &qe             &kp P            &kp K          &kp L      &kp M   &kp V 
+                &kp I    &kp A   &kp E     &hmc LSHIFT S     &hmc LALT DOT   &kp F            &hmc LSHIFT D  &kp N      &kp T   &kp G
+                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL COMMA  &kp LGUI        &kp W            &hmc LCTRL B   &kp SLASH  &kp J   &kp C  
                                            &mo OTH       &kp SPC             &lt RRR R        &lt NAV  LS(N2)
             >;
         };
