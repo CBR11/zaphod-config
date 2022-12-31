@@ -65,8 +65,6 @@
 	COMBO(apo, &apo, 1 11, 120, 6)
 	COMBO(tab, &kp TAB, 2 12, 30, 0)
 	COMBO(x, &kp X, 3 13, 80, 0)
-	COMBO(skshft, &sk LSHIFT, 13 23, 30, 0 1 2 3 4)
-	COMBO(skshft1, &sk LSHIFT, 16 26, 30, 0 1 2 3 4)
 	COMBO(semiK, &kp LS(COMMA), 4 14, 30, 0)
 	COMBO(Kolon, &kp LS(DOT), 5 15, 30, 0)
 	COMBO(z, &kp Z, 6 16, 80, 0 1)
@@ -206,7 +204,7 @@
                 &kp LBKT &kp O   &kp U     &kp H             &qe             &kp P            &kp K          &kp L      &kp M   &kp V 
                 &kp I    &kp A   &kp E     &hmc LSHIFT S     &hmc LALT DOT   &kp F            &hmc LSHIFT D  &kp N      &kp T   &kp G
                 &kp Y    &kp SQT &kp SEMI  &hmc LCTRL COMMA  &hmc LGUI EQUAL &kp W            &hmc LCTRL B   &kp SLASH  &kp J   &kp C  
-                                           &lt OTH BSLH      &kp SPC         &lt RRR R        &lt NAV  LS(N2)
+                                           &lt OTH BSLH      &hmc LSHIFT SPC &lt RRR R        &lt NAV  LS(N2)
             >;
         };
 
