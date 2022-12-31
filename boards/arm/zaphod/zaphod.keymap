@@ -61,8 +61,8 @@
 	
 	COMBO(um, &kp RBKT, 25 26, 30, 0)
 	COMBO(nj, &nj, 23 24, 30, 0)
-	COMBO(ac, &kp EQUAL, 15 16, 30, 0)
-	COMBO(apo, &apo, 1 11, 120, 0 1)
+	COMBO(ac, &kp EQUAL, 15 16, 30, 6)
+	COMBO(apo, &apo, 1 11, 120, 6)
 	COMBO(tab, &kp TAB, 2 12, 30, 0)
 	COMBO(x, &kp X, 3 13, 80, 0)
 	COMBO(semiK, &kp LS(COMMA), 4 14, 30, 0)
@@ -77,8 +77,8 @@
         COMBO(lalt, &kp LALT, 12 22, 30, 6)
 	COMBO(rctrl, &sk RCTRL, 17 27, 30, 0)
      	COMBO(rwin, &kp RGUI, 18 28, 30, 6)
-	COMBO(Lpara, &kp LS(N8), 14 24, 30, 0)
- 	COMBO(Rpara, &kp LS(N9), 15 25, 30, 0)
+	COMBO(Lpara, &kp LS(N8), 11 21, 30, 0)
+ 	COMBO(Rpara, &kp LS(N9), 18 28, 30, 0)
 	COMBO(thorn, &m_thorn, 7 8, 30, 6)
 	COMBO(ss, &m_ss, 6 7, 30, 6)
 	COMBO(at, &at, 13 14, 30, 0)
@@ -203,8 +203,8 @@
             bindings = <
                 &kp LBKT &kp O   &kp U     &kp H             &qe             &kp P            &kp K          &kp L      &kp M   &kp V 
                 &kp I    &kp A   &kp E     &hmc LSHIFT S     &hmc LALT DOT   &kp F            &hmc LSHIFT D  &kp N      &kp T   &kp G
-                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL COMMA  &kp LGUI        &kp W            &hmc LCTRL B   &kp SLASH  &kp J   &kp C  
-                                           &mo OTH       &kp SPC             &lt RRR R        &lt NAV  LS(N2)
+                &kp Y    &kp SQT &kp SEMI  &hmc LCTRL COMMA  &hmc LGUI EQUAL &kp W            &hmc LCTRL B   &kp SLASH  &kp J   &kp C  
+                                           &lt OTH BSLH      &kp SPC         &lt RRR R        &lt NAV  LS(N2)
             >;
         };
 
