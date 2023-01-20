@@ -261,9 +261,9 @@
         fun_layer {
             label = "OneShot";
             bindings = <
-                &trans      &kp LS(RBKT)   &kp RBKT      &trans     &trans        &trans          &trans    &kp TAB     &kp ENTER      &kp LS(N1)
-                &trans      &kp LS(EQUAL)  &kp EQUAL     &kp RA(RBKT)     &trans        &trans          &kp LS(N2)     &kp DOT     &kp COMMA      &kp LS(MINUS)
-                &none       &trans         &trans      &trans     &trans        &trans          &trans         &kp LS(DOT) &kp LS(COMMA)  &trans
+                &trans      &kp LS(RBKT)   &kp RBKT      &trans     &trans        &trans          &trans   &kp ENTER  &kp TAB          &kp LS(N1)
+                &trans      &kp LS(EQUAL)  &kp EQUAL     &kp RA(RBKT)     &trans        &trans          &kp LS(N2)    &kp COMMA  &kp DOT    &kp LS(MINUS)
+                &none       &trans         &trans      &trans     &trans        &trans          &trans          &kp LS(COMMA) &kp LS(DOT) &trans
                                                    &trans      &trans                &trans          &trans
             >;
         };
