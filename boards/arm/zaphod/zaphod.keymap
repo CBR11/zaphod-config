@@ -203,8 +203,8 @@
             bindings = <
                 &kp SEMI  &kp O    &kp U   &kp L            &lt MED SQT      &kp  J     &kp  H        &kp V  &kp F  &kp C
                 &kp I     &kp A    &kp E   &hm LSHIFT N     &hmc LALT Z      &kp  P     &hm LSHIFT D  &kp T  &kp S  &kp G
-                &sl FUN   &kp LBKT &kp Y   &hmc LCTRL SLASH &hmc LGUI Q      &kp BSLH   &hmc LCTRL K  &kp M  &kp B  &kp LS(N2)
-                                           &lt OTH  EQUAL   &kp SPC          &lt RRR R  &lt NAV W
+                &sl FUN   &kp LBKT &kp Y   &hmc LCTRL SLASH &hmc LGUI X      &kp BSLH   &hmc LCTRL K  &kp M  &kp B  &sk LSHIFT
+                                           &lt OTH  Q   &kp SPC          &lt RRR R  &lt NAV W
             >;
         };
 
@@ -233,7 +233,7 @@
             bindings = <
                 &trans &trans   &trans     &trans        &kp LC(Z)      &trans           &trans          &trans  &trans  &trans
                 &trans   &trans   &trans    &trans &trans            &trans &trans   &trans     &trans        &trans
-                &trans    &trans &trans  &trans  &trans               &trans &trans  &kp CAPS     &trans        &trans 
+                &trans    &trans &trans  &trans  &trans               &trans &trans       &trans        &trans &kp CAPS
                                            &kp LC(BSPC)       &kp BSPC           &trans        &trans
             >;
         };
@@ -261,10 +261,10 @@
         fun_layer {
             label = "OneShot";
             bindings = <
-                &trans          &trans         &trans      &trans     &trans        &trans          &kp TAB        &kp ENTER   &none      &kp LS(N1)
-                &trans          &trans         &trans      &trans     &trans        &trans          &kp LS(N2)     &kp DOT     &kp COMMA  &kp LS(MINUS)
-                &none           &trans         &trans      &trans     &trans        &trans          &trans         &trans      &trans     &trans
-                                                   &none      &trans                &trans          &trans
+                &trans      &kp LS(RBKT)   &kp RBKT      &trans     &trans        &trans          &trans    &kp TAB     &kp ENTER      &kp LS(N1)
+                &trans      &kp LS(EQUAL)  &kp EQUAL     &kp RA(RBKT)     &trans        &trans          &kp LS(N2)     &kp DOT     &kp COMMA      &kp LS(MINUS)
+                &none       &trans         &trans      &trans     &trans        &trans          &trans         &kp LS(DOT) &kp LS(COMMA)  &trans
+                                                   &trans      &trans                &trans          &trans
             >;
         };
     };
