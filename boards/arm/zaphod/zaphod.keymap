@@ -65,7 +65,6 @@
 	COMBO(apo, &apo, 1 11, 120, 6)
 	COMBO(tab, &kp TAB, 2 12, 30, 0)
 	COMBO(x, &kp X, 3 13, 80, 0)
-	COMBO(ae, &kp SEMI, 11 12, 30, 0)
 	COMBO(Kolon, &kp LS(DOT), 5 15, 30, 6)
 	COMBO(z, &kp Z, 6 16, 80, 0 1)
 	COMBO(enter, &kp ENTER, 7 17, 30, 0 1)
