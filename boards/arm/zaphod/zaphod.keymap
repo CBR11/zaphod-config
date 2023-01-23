@@ -65,7 +65,7 @@
 	COMBO(apo, &apo, 1 11, 120, 6)
 	COMBO(tab, &kp TAB, 2 12, 30, 0)
 	COMBO(x, &kp X, 3 13, 80, 0)
-	COMBO(semiK, &kp LS(COMMA), 4 14, 30, 6)
+	COMBO(ae, &kp SEMI, 11 12, 30, 0)
 	COMBO(Kolon, &kp LS(DOT), 5 15, 30, 6)
 	COMBO(z, &kp Z, 6 16, 80, 0 1)
 	COMBO(enter, &kp ENTER, 7 17, 30, 0 1)
@@ -204,7 +204,7 @@
                 &kp SQT  &kp O    &kp U   &kp F         &lt MED Z        &hmc LGUI SLASH  &kp H         &kp L  &kp V  &kp C
                 &kp I    &kp A    &kp E   &hm LSHIFT S  &sl FUN          &kp M            &hm LSHIFT D  &kp N  &kp T  &kp G
                 &kp SEMI &kp LBKT &kp Y   &hmc LCTRL B  &hmc LALT X      &lt FUN BSLH     &hmc LCTRL K  &kp J  &kp P  &sk LSHIFT
-                                          &lt OTH Q     &kp SPC          &lt NAV R        &lt NAV W
+                                          &lt OTH Q     &lt RRR SPC      &lt NAV R        &kp W
             >;
         };
 
@@ -214,7 +214,7 @@
                 &kp SLASH &kp N6 &kp N5 &kp N4         &lt MED LS(BSLH)             &none      &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
                 &kp N3    &kp N2 &kp N1 &hmc LSHIFT N0 &lt FUN LS(N7)               &none      &kp LARW    &kp DARW   &kp RARW &kp PG_DN
                 &kp MINUS &kp N9 &kp N8 &hmc LCTRL N7  &kp LS(N0)                   &none      &none       &none      &kp HOME &kp END
-                                        &kp LC(BSPC)   &kp BSPC                     &trans     &trans
+                                        &kp LC(BSPC)   &lt RRR BSPC                 &trans     &trans
             >;
         };
 
@@ -231,10 +231,10 @@
         r_layer {
             label = "R";
             bindings = <
-                &trans &trans   &trans     &trans        &kp LC(Z)      &trans           &trans          &trans  &trans  &trans
+                &trans &trans   &trans     &trans     &trans         &kp LC(Z)       &trans          &trans  &trans  &trans
                 &trans   &trans   &trans    &trans &trans            &trans &trans   &trans     &trans        &trans
                 &trans    &trans &trans  &trans  &trans               &trans &trans       &trans        &trans &kp CAPS
-                                           &kp LC(BSPC)       &kp BSPC           &trans        &trans
+                                           &trans        &trans          &lt NAV BSPC        &kp LC(BSPC)
             >;
         };
 
