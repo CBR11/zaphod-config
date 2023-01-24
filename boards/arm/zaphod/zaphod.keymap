@@ -72,7 +72,7 @@
 	COMBO(q, &kp Q, 8 18, 80, 0)
 	COMBO(xxx, &to 3, 9 19, 30, 6)
 	COMBO(tog, &tog 1, 30 31, 30, 0 1)  
-        COMBO(ae1, &kp SEMI, 12 22, 100, 0)
+        COMBO(ae1, &kp SEMI, 12 22, 120, 0)
 	COMBO(rctrl, &sk RCTRL, 17 27, 30, 0)
      	COMBO(rwin, &kp RGUI, 18 28, 30, 6)
 	COMBO(Lpara, &kp LS(N8), 4 14, 30, 0)
@@ -230,7 +230,7 @@
             label = "R";
             bindings = <
                 &trans &trans   &trans     &trans     &trans         &kp LC(Z)       &trans          &trans  &trans  &trans
-                &trans   &trans   &kp SEMI    &trans &trans            &trans &trans   &trans     &trans        &trans
+                &trans   &trans   &trans    &trans &trans            &trans &trans   &trans     &trans        &trans
                 &trans    &trans &trans  &trans  &trans               &trans &trans       &trans        &trans &kp CAPS
                                            &trans        &trans          &trans     &trans
             >;
