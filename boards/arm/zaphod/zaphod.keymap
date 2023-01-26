@@ -199,9 +199,9 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp SQT  &kp O    &kp U   &kp F         &lt MED Z        &hmc LGUI SLASH  &kp H         &kp L  &kp V  &kp C
-                &kp I    &kp A    &kp E   &hm LSHIFT S  &sl FUN          &kp M            &hm LSHIFT D  &kp N  &kp T  &kp G
-                &kp SEMI &kp LBKT &kp Y   &hmc LCTRL B  &hmc LALT BSPC   &lt FUN BSLH     &hmc LCTRL K  &kp J  &kp P  &sk LSHIFT
+                &kp SQT  &kp O    &kp F   &kp U         &lt MED SLASH    &hmc LGUI BSLH   &kp H         &kp L  &kp V  &kp P
+                &kp I    &kp A    &kp S   &hm LSHIFT E  &kp SEMI         &kp M            &hm LSHIFT D  &kp N  &kp T  &kp G
+                &sl FUN  &kp LBKT &kp B   &hmc LCTRL Y  &hmc LALT X      &lt FUN X        &hmc LCTRL K  &kp J  &kp C  &sk LSHIFT
                                           &lt OTH Q     &kp SPC          &lt NAV R        &kp W
             >;
         };
@@ -259,9 +259,9 @@
         fun_layer {
             label = "OneShot";
             bindings = <
-                &kp RA(RBKT) &kp LS(RBKT)   &kp RBKT      &kp LC(TAB)     &trans        &trans          &trans     &kp ENTER     &kp TAB     &kp LS(N1)
-                &trans       &kp LS(EQUAL)  &kp EQUAL     &kp LA(TAB)     &kp LS(N8)        &trans          &kp LS(N2) &kp COMMA     &kp DOT     &kp LS(MINUS)
-                &none        &trans         &trans        &trans     &trans        &trans          &trans     &kp LS(COMMA) &kp LS(DOT) &trans
+                &kp RA(RBKT)  &kp LS(RBKT)   &kp RBKT      &trans     &trans        &trans          &trans     &kp ENTER     &kp TAB     &kp LS(N1)
+                &kp LS(EQUAL) &kp EQUAL &trans     &trans    &kp LS(N8)        &trans          &kp LS(N2) &kp COMMA     &kp DOT     &kp LS(MINUS)
+                &none         &kp LC(TAB)       &kp LA(TAB)         &trans     &trans        &trans          &trans     &kp LS(COMMA) &kp LS(DOT) &trans
                                                    &trans      &trans                &trans          &trans
             >;
         };
