@@ -78,7 +78,7 @@
 	COMBO(rctrl, &sk RCTRL, 17 27, 30, 0)
      	COMBO(rwin, &kp RGUI, 18 28, 30, 6)
 	COMBO(Lpara, &kp LS(N8), 4 14, 30, 0)
- 	COMBO(Rpara, &kp LS(N9), 5 15, 30, 0)
+ 	COMBO(Rpara, &kp BSPC, 5 15, 60, 0 1)
 	COMBO(thorn, &m_thorn, 7 8, 30, 6)
 	COMBO(ss, &m_ss, 6 7, 30, 6)
 	COMBO(at, &at, 13 14, 30, 0)
