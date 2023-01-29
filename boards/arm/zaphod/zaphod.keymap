@@ -107,7 +107,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "qe";
             #binding-cells = <0>;
-            bindings = <&hm LCTRL LS(MINUS)>, <&kp LS(N1)>;
+            bindings = <&hm LALT LS(MINUS)>, <&kp LS(N1)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 	
@@ -202,8 +202,8 @@
             bindings = <
                 &kp SQT  &kp O    &kp U   &kp F         &lt MED COMMA   &hmc LGUI SLASH  &kp K         &kp L  &kp V  &kp P
                 &kp I    &kp A    &kp E   &hm LSHIFT S  &kp DOT         &kp M            &hm LSHIFT D  &kp N  &kp T  &kp G
-                &qe      &kp LBKT &kp Y   &hmc LCTRL B  &hmc LALT X     &lt FUN  BSLH    &hmc LCTRL H  &kp J  &kp C  &sk LSHIFT
-                                          &lt OTH SEMI  &kp SPC         &lt NAV R        &kp W
+                &kp SEMI &kp LBKT &kp Y   &hmc LCTRL B  &qe             &lt FUN  BSLH    &hmc LCTRL H  &kp J  &kp C  &sk LSHIFT
+                                          &lt OTH SLASH &kp SPC         &lt NAV R        &kp W
             >;
         };
 
