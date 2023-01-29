@@ -210,10 +210,10 @@
         nav_layer {
             label = "Nav";
             bindings = <
-                &kp SLASH &kp N6 &kp N5 &kp N4         &lt MED LS(BSLH)             &none      &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
-                &kp N3    &kp N2 &kp N1 &hmc LSHIFT N0 &lt FUN LS(N7)               &none      &kp LARW    &kp DARW   &kp RARW &kp PG_DN
-                &kp MINUS &kp N9 &kp N8 &hmc LCTRL N7  &kp LS(N0)                   &none      &none       &none      &kp HOME &kp END
-                                        &kp LC(BSPC)   &kp BSPC                     &trans     &trans
+                &kp SLASH &kp N6 &kp N5 &kp N4         &lt MED LS(BSLH)             &kp LC(BSPC) &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
+                &kp N3    &kp N2 &kp N1 &hmc LSHIFT N0 &lt FUN LS(N7)               &kp LC(Z)    &kp LARW    &kp DARW   &kp RARW &kp PG_DN
+                &kp MINUS &kp N9 &kp N8 &hmc LCTRL N7  &kp LS(N0)                   &none        &none       &none      &kp HOME &kp END
+                                        &trans         &trans                       &trans       &trans
             >;
         };
 
