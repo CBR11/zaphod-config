@@ -34,7 +34,9 @@
     flavor = "tap-preferred";
     tapping_term_ms = <300>;
 };
-
+&mt {
+    tapping-term-ms = <400>;
+};
 / {
     combos {
         compatible = "zmk,combos";
